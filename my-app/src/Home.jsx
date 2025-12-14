@@ -1,0 +1,88 @@
+
+
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+
+export default function Home() {
+  const navigate = useNavigate();
+
+  return (
+    <div className="min-h-screen bg-white px-12 py-10">
+      <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
+
+        {/* ABOUT ME CARD (EXPANDABLE) */}
+        <motion.div
+          layoutId="about-card"
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+
+          onClick={() => navigate("/about")}
+          className="cursor-pointer rounded-[32px] bg-gray-200 p-6"
+          whileHover={{ scale: 1.02 }}
+        //   transition={{ duration: 0.4 }}
+        >
+          <h2 className="font-semibold text-xl">Ranti FAY</h2>
+          <p className="italic text-gray-600">
+            Know more<br />about me
+          </p>
+        </motion.div>
+
+        {/* CREATIVE DESIGN */}
+        <div className="rounded-[32px] bg-yellow-400 row-span-2 p-6 text-white">
+          Creative<br />Design
+        </div>
+
+        {/* COMPETITION */}
+        <div className="rounded-[32px] bg-gray-200 p-6 row-span-2">
+          Competition
+        </div>
+
+        {/* BUILT DESIGN (INTERIOR) */}
+        <div className="rounded-[32px] bg-blue-300 p-6 text-white row-span-1">
+          Built Design<br />(Interior)
+        </div>
+
+        {/* CONNECT WITH ME */}
+        <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
+          <div>
+            ✈
+            <h2 className="text-2xl mt-6">
+              CONNECT<br />WITH ME
+            </h2>
+          </div>
+          <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
+            →
+          </div>
+        </div>
+
+       
+             {/* DOWNLOAD CV */}
+        <div className="rounded-[32px] row-span-3 overflow-hidden relative">
+          <img
+            src="/img-1.jpg"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30 flex items-end p-6">
+            <span className="text-white">Download<br />My CV</span>
+          </div>
+        </div>
+        
+      
+        {/* BUILT DESIGN */}
+        <div className="rounded-[32px] bg-blue-300 p-6 text-white row-span-2 ">
+          Built Design
+        </div>
+
+       
+
+         {/* ACADEMIC PROJECT */}
+        <div className="rounded-[32px] bg-gray-200 row-span-2 p-6">
+          Academic<br />Project
+        </div>
+
+      
+
+      </div>
+    </div>
+  );
+}
+

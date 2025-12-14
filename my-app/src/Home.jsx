@@ -13,12 +13,10 @@ export default function Home() {
         {/* ABOUT ME CARD (EXPANDABLE) */}
         <motion.div
           layoutId="about-card"
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-
           onClick={() => navigate("/about")}
           className="cursor-pointer rounded-[32px] bg-gray-200 p-6"
-          whileHover={{ scale: 1.02 }}
-        //   transition={{ duration: 0.4 }}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
         >
           <h2 className="font-semibold text-xl">Ranti FAY</h2>
           <p className="italic text-gray-600">
@@ -27,9 +25,15 @@ export default function Home() {
         </motion.div>
 
         {/* CREATIVE DESIGN */}
-        <div className="rounded-[32px] bg-yellow-400 row-span-2 p-6 text-white">
+        <motion.div
+          layoutId="creative-card"
+          onClick={() => navigate("/creative")}
+          className="rounded-[32px] bg-yellow-400 row-span-2 p-6 text-white"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
           Creative<br />Design
-        </div>
+        </motion.div>
 
         {/* COMPETITION */}
         <div className="rounded-[32px] bg-gray-200 p-6 row-span-2">
@@ -50,7 +54,9 @@ export default function Home() {
             </h2>
           </div>
           <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
+            <a href="https://www.linkedin.com/in/ranti-fay-5585b6219/" target="_blank">
             →
+            </a>
           </div>
         </div>
 
@@ -58,7 +64,7 @@ export default function Home() {
              {/* DOWNLOAD CV */}
         <div className="rounded-[32px] row-span-3 overflow-hidden relative">
           <img
-            src="/img-1.jpg"
+            src="/img-1.jpeg"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/30 flex items-end p-6">

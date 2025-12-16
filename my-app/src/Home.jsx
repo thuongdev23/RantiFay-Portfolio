@@ -36,14 +36,29 @@ export default function Home() {
         </motion.div>
 
         {/* COMPETITION */}
-        <div className="rounded-[32px] bg-gray-200 p-6 row-span-2">
+        {/* <div className="rounded-[32px] bg-gray-200 p-6 row-span-2">
           Competition
-        </div>
+        </div> */}
+          <motion.div
+          layoutId="competition-card"
+          onClick={() => navigate("/competition")}
+          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-white"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
+          Competition
+        </motion.div>
 
         {/* BUILT DESIGN (INTERIOR) */}
-        <div className="rounded-[32px] bg-blue-300 p-6 text-white row-span-1">
-          Built Design<br />(Interior)
-        </div>
+          <motion.div
+          layoutId="design-inter-card"
+          onClick={() => navigate("/built-design-inter")}
+          className="rounded-[32px] bg-blue-300 row-span-1 p-6 text-white"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
+           Built Design<br />(Interior)
+        </motion.div>
 
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
@@ -73,17 +88,34 @@ export default function Home() {
         </div>
         
       
-        {/* BUILT DESIGN */}
-        <div className="rounded-[32px] bg-blue-300 p-6 text-white row-span-2 ">
-          Built Design
-        </div>
+      
 
        
 
          {/* ACADEMIC PROJECT */}
-        <div className="rounded-[32px] bg-gray-200 row-span-2 p-6">
+         <motion.div
+          layoutId="academic-card"
+          onClick={() => navigate("/academic")}
+          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-white"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
           Academic<br />Project
-        </div>
+        </motion.div>
+          {/* BUILT DESIGN */}
+        {/* <div className="rounded-[32px] bg-blue-300 p-6 text-white row-span-2 ">
+          Built Design
+        </div> */}
+        <motion.div
+          layoutId="built-design-card"
+          onClick={() => navigate("/built-design")}
+          className="rounded-[32px] bg-blue-300 row-span-2 p-6 text-white"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
+          Build Design
+        </motion.div>
+        
 
       
 

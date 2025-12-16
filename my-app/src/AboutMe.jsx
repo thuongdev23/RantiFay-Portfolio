@@ -10,7 +10,7 @@ export default function AboutMe() {
     <motion.div
       layoutId="about-card"
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="min-h-screen bg-white px-16 py-12 flex justify-center"
+      className="min-h-screen bg-gray-200 px-16 py-12 flex justify-center"
     >
        <div className="grid grid-cols-12 gap-12 h-full w-full max-w-7xl">
      

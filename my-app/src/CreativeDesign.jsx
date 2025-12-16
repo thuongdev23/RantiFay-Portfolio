@@ -108,14 +108,33 @@ export default function CreativeDesin() {
         </motion.div>
 
         {/* BUILT DESIGN (INTERIOR) */}
-        <div className="rounded-[32px] bg-white p-6 text-yellow-500 row-span-4">
-          Built Design<br />(Interior)
-        </div>
+        {/* <div className="rounded-[32px] bg-white p-6 text-yellow-500 row-span-4 ">
+          Book
+        </div> */}
+          <motion.div
+          layoutId="book-card"
+          onClick={() => navigate("/book")}
+          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-4 flex flex-col"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
+          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+            Book
+          </h2>
+        </motion.div>
 
         {/* BRANDING */}
-        <div className="rounded-[32px] bg-white p-6 text-yellow-500 row-span-2 col-span-2">
-          Branding
-        </div>
+          <motion.div
+          layoutId="branding-card"
+          onClick={() => navigate("/branding")}
+          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 col-span-2 flex flex-col"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+        >
+          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+             Branding
+          </h2>
+        </motion.div>
 
       </div>
       

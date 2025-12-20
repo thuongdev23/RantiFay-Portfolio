@@ -6,7 +6,6 @@ export default function Branding() {
 
   return (
     <div className="h-screen bg-yellow-500 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -25,7 +24,6 @@ export default function Branding() {
           </h2>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
      <div className="flex-1 overflow-y-auto px-12 py-10 relative">
         <div className="relative min-h-[200vh]">
@@ -99,8 +97,6 @@ export default function Branding() {
 
       </div> 
       {/* EXTRA CONTENT */}
-
-
         <div className="absolute inset-0 pointer-events-none z-0">
         <img
           src="./Branding/brand-16.png"

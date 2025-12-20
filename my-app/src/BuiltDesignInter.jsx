@@ -6,7 +6,6 @@ export default function BuiltDesignInter() {
 
   return (
     <div className=" bg-red-500 px-12 py-10 relative">
-
       {/* BACK ARROW */}
       <button
         onClick={() => navigate(-1)}
@@ -15,13 +14,11 @@ export default function BuiltDesignInter() {
         <span className="w-11 h-11  flex items-center justify-center">
           ←
         </span>
-     
       </button>
-
       {/* GRID */}
       <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
 
-        {/* Virtual Museum: Tan Soek Ho  */}
+        {/* CUCIIN MAMI  */}
         <motion.div
           layoutId="sarang-salang-card"
           onClick={() => navigate("/sarang-salang")}
@@ -33,8 +30,7 @@ export default function BuiltDesignInter() {
             Cuciin Mami
           </h2>
         </motion.div>
-
-
+          {/* A1 OFFICE BANDUNG  */}
           <motion.div
           layoutId="student-house-card"
           onClick={() => navigate("/student-house")}
@@ -46,8 +42,7 @@ export default function BuiltDesignInter() {
             A1 Office Bandung
           </h2>
         </motion.div>
-
-            {/* COMPETITION */}
+            {/* BUILT DESIGN (INTERIOR ) */}
           <motion.div
           layoutId="kotak-card"
           onClick={() => navigate("/kotak")}
@@ -59,10 +54,7 @@ export default function BuiltDesignInter() {
              Built Design (Interior Architecture) 
           </h2>
         </motion.div>
-
-
-
-          {/* ACADEMIC PROJECT */}
+          {/* MEETING HALL */}
          <motion.div
           layoutId="acc-card"
           onClick={() => navigate("/")}
@@ -72,10 +64,8 @@ export default function BuiltDesignInter() {
         >
         <h2 className="font-semibold text-xl text-red-500 mt-auto">
             Meeting Hall (PUPR Bandung)     </h2>
-         
         </motion.div>
-      
-          {/* ACADEMIC PROJECT */}
+          {/* C PLANNER OFFICE  */}
          <motion.div
           layoutId="a-card"
           onClick={() => navigate("/academic")}
@@ -83,14 +73,11 @@ export default function BuiltDesignInter() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-  
         <h2 className="font-semibold text-xl text-red-500 mt-auto">
             C-Planner Office
         </h2>
-          
         </motion.div>
-
-          {/* ACADEMIC PROJECT */}
+          {/* HOUSE+ GARGAGE WORKSHOP */}
          <motion.div
           layoutId="a-card"
           onClick={() => navigate("/academic")}
@@ -98,11 +85,9 @@ export default function BuiltDesignInter() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-  
         <h2 className="font-semibold text-xl text-red-500 mt-auto">
             House+Garage Workshop
         </h2>
-          
         </motion.div>
         
         

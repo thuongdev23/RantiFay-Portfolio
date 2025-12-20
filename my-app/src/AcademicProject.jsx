@@ -6,7 +6,6 @@ export default function AcademicProject() {
 
   return (
     <div className=" bg-gray-200 px-12 py-10 relative">
-
       {/* BACK ARROW */}
       <button
         onClick={() => navigate(-1)}
@@ -15,9 +14,7 @@ export default function AcademicProject() {
         <span className="w-11 h-11  flex items-center justify-center">
           ←
         </span>
-     
       </button>
-
       {/* GRID */}
       <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
 
@@ -33,9 +30,7 @@ export default function AcademicProject() {
             Virtual Museum: Tan Soek Ho 
           </h2>
         </motion.div>
-
-         {/* BUILT DESIGN (INTERIOR) */}
-        
+        {/* STUDENT TINY HOUSE CITY */}
           <motion.div
           layoutId="student-house-card"
           onClick={() => navigate("/student-house")}
@@ -47,9 +42,6 @@ export default function AcademicProject() {
             Student Tiny House City
           </h2>
         </motion.div>
-
-       
-
         {/* Re-imagining Uluönder */}
           <motion.div
           layoutId="uluonder-card"
@@ -62,9 +54,6 @@ export default function AcademicProject() {
             Re-imagining Uluönder
           </h2>
         </motion.div>
-
-       
-
           {/* ACADEMIC PROJECT */}
          <motion.div
           layoutId="academic-card"
@@ -75,17 +64,8 @@ export default function AcademicProject() {
         >
           Academic<br />Project
         </motion.div>
-
-        
-     
-
       </div>
-      
     </div>
-
-
-   
-    
   );
 }
 

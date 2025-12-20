@@ -66,11 +66,8 @@ export default function Illustration() {
         <h1 className="text-2xl font-medium">Ne.Bac</h1>
         <h1 className="text-2xl font-medium">KeyChain Design</h1>
        </div>
-       
       </div> 
        {/* EXTRA CONTENT */}
-
-
         <div className="absolute inset-0 pointer-events-none z-0">
                 <img
           src="/illus-5.png"

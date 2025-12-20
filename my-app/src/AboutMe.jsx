@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useNavigate, Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
-
 export default function AboutMe() {
   const navigate = useNavigate();
 
@@ -13,11 +12,8 @@ export default function AboutMe() {
       className="min-h-screen bg-gray-200 px-16 py-12 flex justify-center"
     >
        <div className="grid grid-cols-12 gap-12 h-full w-full max-w-7xl">
-     
-
         {/* LEFT CONTENT */}
        <div className="col-span-8 flex flex-col justify-between mt-40">
-
   {/* CENTERED TEXT BLOCK */}
   <div className="mx-auto w-full max-w-xl">
     <h1 className="text-3xl font-semibold mb-8">
@@ -74,10 +70,7 @@ export default function AboutMe() {
     
     </div>
   </div>
-
 </div>
-
-
         {/* RIGHT IMAGES */}
         <div className="col-span-2 flex flex-col gap-6">
 
@@ -91,7 +84,6 @@ export default function AboutMe() {
     </motion.div>
   );
 }
-
 /* FRAMED IMAGE */
 function FramedImage({ src }) {
   return (

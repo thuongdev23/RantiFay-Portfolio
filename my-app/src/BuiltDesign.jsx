@@ -21,7 +21,7 @@ export default function BuiltDesign() {
       {/* GRID */}
       <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
 
-        {/* Virtual Museum: Tan Soek Ho  */}
+        {/* WKG*/}
         <motion.div
           layoutId="sarang-salang-card"
           onClick={() => navigate("/sarang-salang")}
@@ -34,7 +34,7 @@ export default function BuiltDesign() {
           </h2>
         </motion.div>
 
-
+          {/* CIWIDEY RESORT */}
           <motion.div
           layoutId="student-house-card"
           onClick={() => navigate("/student-house")}
@@ -47,7 +47,7 @@ export default function BuiltDesign() {
           </h2>
         </motion.div>
 
-            {/* COMPETITION */}
+            {/* IMAJI */}
           <motion.div
           layoutId="kotak-card"
           onClick={() => navigate("/kotak")}
@@ -59,9 +59,6 @@ export default function BuiltDesign() {
             Imaji
           </h2>
         </motion.div>
-
-
-
           {/* ACADEMIC PROJECT */}
          <motion.div
           layoutId="acc-card"
@@ -75,7 +72,7 @@ export default function BuiltDesign() {
          
         </motion.div>
       
-          {/* ACADEMIC PROJECT */}
+          {/* BUILT DESIGN  */}
          <motion.div
           layoutId="a-card"
           onClick={() => navigate("/academic")}
@@ -87,10 +84,8 @@ export default function BuiltDesign() {
         <h2 className="font-semibold text-xl text-purple-500 mt-auto">
             Built Design
         </h2>
-          
         </motion.div>
-
-          {/* ACADEMIC PROJECT */}
+          {/* KLINIK BENING*/}
          <motion.div
           layoutId="a-card"
           onClick={() => navigate("/academic")}

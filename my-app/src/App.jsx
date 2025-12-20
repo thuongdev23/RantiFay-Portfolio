@@ -14,6 +14,10 @@ import Competition from "./Competition";
 import BuiltDesign from "./BuiltDesign";
 import BuiltDesignInter from "./BuiltDesignInter";
 import Branding from "./Branding";
+import SarangSalang from "./SarangSalang";
+import LavieGreen from "./LavieGreen";
+import NuUrang from "./NuUrang";
+import Kotak from "./Kotak";
 
 
 export default function App() {
@@ -35,6 +39,10 @@ export default function App() {
         <Route path="/built-design" element={<BuiltDesign/>} />
         <Route path="/built-design-inter" element={<BuiltDesignInter/>} />
         <Route path="/branding" element={<Branding/>} /> 
+        <Route path="/sarang" element={<SarangSalang/>} /> 
+        <Route path="/lavie-en-green" element={<LavieGreen/>} /> 
+        <Route path="/nu-urang" element={<NuUrang/>} /> 
+        <Route path="/kotak" element={<Kotak/>} /> 
 
 
       </Routes>

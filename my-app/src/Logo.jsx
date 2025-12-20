@@ -72,14 +72,8 @@ export default function Logo() {
             <img src="./Logo/logos-09.png"  />
             </div>
           </div>
-
         </div>
-
-
       </div>
-
-     
-
     </div>
   );
 }

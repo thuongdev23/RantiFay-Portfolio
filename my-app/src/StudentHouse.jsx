@@ -5,7 +5,7 @@ export default function StudentHouse() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen bg-yellow-500 flex relative overflow-hidden">
+    <div className="h-screen bg-gray-200 flex relative overflow-hidden">
 
       {/* BACK */}
       <button
@@ -20,7 +20,7 @@ export default function StudentHouse() {
           layoutId="logo-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className=" text-xl text-black mt-auto">
             Student Tiny House City
           </h2>
         </motion.div>

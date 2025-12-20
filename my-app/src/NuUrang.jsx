@@ -5,7 +5,7 @@ export default function NuUrang() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen bg-yellow-500 flex relative overflow-hidden">
+    <div className="h-screen bg-gray-200 flex relative overflow-hidden">
 
       {/* BACK */}
       <button
@@ -20,9 +20,17 @@ export default function NuUrang() {
           layoutId="logo-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+             <div className=" flex flex-col mt-auto">
+          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+            West Java Governmen Competition
+          </h3>
+           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+            Audience Favorite
+          </h3>
+          <h2 className=" text-xl text-gray-300 mt-auto">
             Nu Urang
           </h2>
+          </div>
         </motion.div>
       </div>
 

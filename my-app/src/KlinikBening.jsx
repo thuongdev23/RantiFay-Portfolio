@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-export default function Kotak() {
+export default function KlinikBening() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen bg-gray-200 flex relative overflow-hidden">
+    <div className="h-screen bg-blue-200 flex relative overflow-hidden">
 
       {/* BACK */}
       <button
@@ -20,33 +20,31 @@ export default function Kotak() {
           layoutId="logo-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
-             <div className=" flex flex-col mt-auto">
-          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
-            UPI Architecture Competition
-          </h3>
-           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
-            4th Winner 
-          </h3>
-          <h2 className=" text-xl text-gray-300 mt-auto">
-            Kotak-Kotak
+          <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
+            <h3 className="italic text-purple-500 font-thin">
+              Facade
+            </h3>
+          <h2 className=" text-xl text-purple-500 mt-auto">
+            Klinik Bening
           </h2>
-          </div>
+          </div> 
         </motion.div>
       </div>
 
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-        
-
           {/* <div className="flex flex-auto"> */}
             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/kotak-1.jpg"  />
+            <img src="./Competition/nu-urang-1.jpg"  />
             </div>
             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/kotak-2.jpg"  />
+            <img src="./Competition/nu-urang-2.jpg"  />
             </div>
              <div className="w-[700px] h-[700px]">
-            <img src="./Competition/kotak-3.jpg"  />
+            <img src="./Competition/nu-urang-3.jpg"  />
+            </div>
+             <div className="w-[700px] h-[700px]">
+            <img src="./Competition/nu-urang-4.jpg"  />
             </div>
             
 

@@ -20,72 +20,72 @@ export default function BuiltDesignInter() {
 
         {/* CUCIIN MAMI  */}
         <motion.div
-          layoutId="sarang-salang-card"
-          onClick={() => navigate("/sarang-salang")}
+          layoutId="cuciin-mami-card"
+          onClick={() => navigate("/cuciin-mami")}
           className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-red-500 mt-auto">
+          <h2 className="text-xl text-red-500 mt-auto">
             Cuciin Mami
           </h2>
         </motion.div>
           {/* A1 OFFICE BANDUNG  */}
           <motion.div
-          layoutId="student-house-card"
-          onClick={() => navigate("/student-house")}
+          layoutId="office-bandung-card"
+          onClick={() => navigate("/office-bandung")}
           className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 col-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-red-500 mt-auto">
+          <h2 className=" text-xl text-red-500 mt-auto">
             A1 Office Bandung
           </h2>
         </motion.div>
             {/* BUILT DESIGN (INTERIOR ) */}
           <motion.div
-          layoutId="kotak-card"
-          onClick={() => navigate("/kotak")}
-          className="cursor-pointer rounded-[32px] bg-red-500 p-6 row-span-2 flex flex-col"
+          layoutId="built-design-inter-card"
+          onClick={() => navigate("/built-design-inter")}
+          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className=" text-xl text-red-500 mt-auto">
              Built Design (Interior Architecture) 
           </h2>
         </motion.div>
           {/* MEETING HALL */}
          <motion.div
-          layoutId="acc-card"
-          onClick={() => navigate("/")}
-          className="rounded-[32px] font-semibold text-xl bg-white row-span-2 col-span-2 p-6 text-black flex flex-col"          
+          layoutId="meetin-hall-card"
+          onClick={() => navigate("/meeting-hall")}
+          className="rounded-[32px]  text-xl bg-white row-span-2 col-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-        <h2 className="font-semibold text-xl text-red-500 mt-auto">
+        <h2 className=" text-xl text-red-500 mt-auto">
             Meeting Hall (PUPR Bandung)     </h2>
         </motion.div>
           {/* C PLANNER OFFICE  */}
          <motion.div
-          layoutId="a-card"
-          onClick={() => navigate("/academic")}
-          className="rounded-[32px] font-semibold text-xl bg-gray-200 row-span-2 p-6 text-black flex flex-col"          
+          layoutId="planner-office-card"
+          onClick={() => navigate("/planner-office")}
+          className="rounded-[32px]  text-xl bg-gray-200 row-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-        <h2 className="font-semibold text-xl text-red-500 mt-auto">
+        <h2 className=" text-xl text-red-500 mt-auto">
             C-Planner Office
         </h2>
         </motion.div>
           {/* HOUSE+ GARGAGE WORKSHOP */}
          <motion.div
-          layoutId="a-card"
-          onClick={() => navigate("/academic")}
-          className="rounded-[32px] font-semibold text-xl bg-white row-span-2  p-6 text-black flex flex-col"          
+          layoutId="house-gargage-workshop-card"
+          onClick={() => navigate("/house-gargage-workshop")}
+          className="rounded-[32px] text-xl bg-white row-span-2  p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-        <h2 className="font-semibold text-xl text-red-500 mt-auto">
+        <h2 className=" text-xl text-red-500 mt-auto">
             House+Garage Workshop
         </h2>
         </motion.div>

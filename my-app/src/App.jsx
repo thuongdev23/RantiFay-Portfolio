@@ -18,6 +18,16 @@ import SarangSalang from "./SarangSalang";
 import LavieGreen from "./LavieGreen";
 import NuUrang from "./NuUrang";
 import Kotak from "./Kotak";
+import WKG from "./WKG";
+import CiwideyResort from "./CiwideyResort";
+import Imaji from "./Imaji";
+import Wisata from "./Wisata";
+import KlinikBening from "./KlinikBening";
+import CuciinMami from "./CuciinMami";
+import OfficeBandung from "./OfficeBandung";
+import MeetingHall from "./MeetingHall";
+import PlannerOffice from "./PlannerOffice";
+import HouseWorkshop from "./HouseWorkshop";
 
 
 export default function App() {
@@ -43,6 +53,17 @@ export default function App() {
         <Route path="/lavie-en-green" element={<LavieGreen/>} /> 
         <Route path="/nu-urang" element={<NuUrang/>} /> 
         <Route path="/kotak" element={<Kotak/>} /> 
+        <Route path="/wkg" element={<WKG/>} /> 
+        <Route path="/ciwidey-resort" element={<CiwideyResort/>} /> 
+        <Route path="/imaji" element={<Imaji/>} /> 
+        <Route path="/wisata" element={<Wisata/>} /> 
+        <Route path="/klinik-bening" element={<KlinikBening/>} /> 
+         <Route path="/cuciin-mami" element={<CuciinMami/>} /> 
+          <Route path="/office-bandung" element={<OfficeBandung/>} /> 
+           <Route path="/meeting-hall" element={<MeetingHall/>} /> 
+             <Route path="/planner-office" element={<PlannerOffice/>} />
+             <Route path="/house-gargage-workshop" element={<HouseWorkshop/>} /> 
+
 
 
       </Routes>

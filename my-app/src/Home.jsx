@@ -33,7 +33,7 @@ export default function Home() {
           <motion.div
           layoutId="competition-card"
           onClick={() => navigate("/competition")}
-          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-white"          
+          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -77,7 +77,7 @@ export default function Home() {
          <motion.div
           layoutId="academic-card"
           onClick={() => navigate("/academic")}
-          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-white"          
+          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

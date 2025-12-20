@@ -18,7 +18,7 @@ export default function Logo() {
       <div className="w-[320px] px-12 py-16">
         <motion.div
           layoutId="logo-card"
-          className="bg-white rounded-[32px] p-6 h-[360px] sticky top-16 flex flex-col"
+          className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
             Logo

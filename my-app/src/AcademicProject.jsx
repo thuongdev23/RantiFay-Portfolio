@@ -26,7 +26,7 @@ export default function AcademicProject() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className=" text-xl text-black mt-auto">
             Virtual Museum: Tan Soek Ho 
           </h2>
         </motion.div>
@@ -38,7 +38,7 @@ export default function AcademicProject() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className=" text-xl text-black mt-auto">
             Student Tiny House City
           </h2>
         </motion.div>
@@ -50,7 +50,7 @@ export default function AcademicProject() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className=" text-xl text-black mt-auto">
             Re-imagining Uluönder
           </h2>
         </motion.div>
@@ -58,7 +58,7 @@ export default function AcademicProject() {
          <motion.div
           layoutId="academic-card"
           onClick={() => navigate("/academic")}
-          className="rounded-[32px] font-semibold text-xl bg-gray-200 row-span-2 p-6 text-black"          
+          className="rounded-[32px] text-xl bg-gray-200 row-span-2 p-6 text-black mt-auto"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

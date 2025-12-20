@@ -27,12 +27,12 @@ export default function CreativeDesin() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+          <h2 className=" text-xl text-yellow-500 mt-auto">
             Illustration
           </h2>
         </motion.div>
         {/* CREATIVE DESIGN */}
-        <div className="rounded-[32px] bg-yellow-500 row-span-2 p-6 text-white">
+        <div className="rounded-[32px] bg-yellow-500 row-span-2 p-6 text-white mt-auto">
           Creative<br />Design
         </div>
         {/* LOGO */}
@@ -43,7 +43,7 @@ export default function CreativeDesin() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+          <h2 className=" text-xl text-yellow-500 mt-auto">
             Logo
           </h2>
         </motion.div>
@@ -56,7 +56,7 @@ export default function CreativeDesin() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+          <h2 className=" text-xl text-yellow-500 mt-auto">
             Book
           </h2>
         </motion.div>
@@ -68,7 +68,7 @@ export default function CreativeDesin() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-semibold text-xl text-yellow-500 mt-auto">
+          <h2 className=" text-xl text-yellow-500 mt-auto">
              Branding
           </h2>
         </motion.div>

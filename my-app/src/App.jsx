@@ -28,6 +28,8 @@ import OfficeBandung from "./OfficeBandung";
 import MeetingHall from "./MeetingHall";
 import PlannerOffice from "./PlannerOffice";
 import HouseWorkshop from "./HouseWorkshop";
+import Villa from "./Villa";
+import Amphitheatre from "./Amphitheatre";
 
 
 export default function App() {
@@ -58,11 +60,14 @@ export default function App() {
         <Route path="/imaji" element={<Imaji/>} /> 
         <Route path="/wisata" element={<Wisata/>} /> 
         <Route path="/klinik-bening" element={<KlinikBening/>} /> 
-         <Route path="/cuciin-mami" element={<CuciinMami/>} /> 
-          <Route path="/office-bandung" element={<OfficeBandung/>} /> 
-           <Route path="/meeting-hall" element={<MeetingHall/>} /> 
-             <Route path="/planner-office" element={<PlannerOffice/>} />
-             <Route path="/house-gargage-workshop" element={<HouseWorkshop/>} /> 
+        <Route path="/cuciin-mami" element={<CuciinMami/>} /> 
+        <Route path="/office-bandung" element={<OfficeBandung/>} /> 
+        <Route path="/meeting-hall" element={<MeetingHall/>} /> 
+        <Route path="/planner-office" element={<PlannerOffice/>} />
+        <Route path="/house-gargage-workshop" element={<HouseWorkshop/>} /> 
+        <Route path="/villa" element={<Villa/>} /> 
+        <Route path="/amphitheatre" element={<Amphitheatre/>} /> 
+
 
 
 

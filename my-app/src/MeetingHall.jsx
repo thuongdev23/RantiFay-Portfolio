@@ -20,7 +20,7 @@ export default function MeetingHall() {
           layoutId="logo-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <h2 className="font-semibold text-xl text-red-500 mt-auto">
             Meeting Hall (PUPR Bandung)
           </h2>
         </motion.div>

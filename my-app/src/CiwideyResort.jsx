@@ -21,6 +21,9 @@ export default function CiwideyResort() {
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
+            <p className="text-purple-500">
+              A resort design with traditional mixed with an openness design approach that is located in West Java. Nevertheless, the design stay chic but doesn't forget the root of the culture.
+            </p>
             <h3 className="italic text-purple-500 font-thin">
               Resort
             </h3>

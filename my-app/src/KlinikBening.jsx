@@ -17,7 +17,7 @@ export default function KlinikBening() {
        {/* RIGHT STICKY CARD */}
       <div className="w-[320px] px-12 py-16">
         <motion.div
-          layoutId="logo-card"
+          layoutId="klinik-bening-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">

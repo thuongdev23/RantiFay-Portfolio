@@ -30,6 +30,9 @@ import PlannerOffice from "./PlannerOffice";
 import HouseWorkshop from "./HouseWorkshop";
 import Villa from "./Villa";
 import Amphitheatre from "./Amphitheatre";
+import Skywalk from "./Skywalk";
+import Villa2 from "./Villa2";
+import Plaza from "./Plaza";
 
 
 export default function App() {
@@ -67,6 +70,13 @@ export default function App() {
         <Route path="/house-gargage-workshop" element={<HouseWorkshop/>} /> 
         <Route path="/villa" element={<Villa/>} /> 
         <Route path="/amphitheatre" element={<Amphitheatre/>} /> 
+        <Route path="/skywalk" element={<Skywalk/>} /> 
+        <Route path="/villa2" element={<Villa2/>} /> 
+        <Route path="/plaza" element={<Plaza/>} /> 
+
+
+
+
 
 
 

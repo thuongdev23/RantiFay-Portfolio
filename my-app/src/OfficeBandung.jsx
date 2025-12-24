@@ -17,7 +17,7 @@ export default function OfficeBandung() {
        {/* RIGHT STICKY CARD */}
       <div className="w-[320px] px-12 py-16">
         <motion.div
-          layoutId="logo-card"
+          layoutId="office-bandung-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <h2 className="font-semibold text-xl text-red-500 mt-auto">

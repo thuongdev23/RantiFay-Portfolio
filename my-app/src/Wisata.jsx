@@ -90,7 +90,7 @@ export default function Wisata() {
         </motion.div>
           {/* VILLA (2) */}
          <motion.div
-          layoutId="villa-2-card"
+          layoutId="villa2-card"
           onClick={() => navigate("/villa-2")}
           className="rounded-[32px]  text-xl bg-white row-span-2  p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}

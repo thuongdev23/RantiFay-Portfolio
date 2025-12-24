@@ -56,7 +56,7 @@ export default function BuiltDesignInter() {
         </motion.div>
           {/* MEETING HALL */}
          <motion.div
-          layoutId="meetin-hall-card"
+          layoutId="meeting-hall-card"
           onClick={() => navigate("/meeting-hall")}
           className="rounded-[32px]  text-xl bg-white row-span-2 col-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}

@@ -15,40 +15,69 @@ export default function Home() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-       
           <h2 className="font-semibold text-xl">Ranti FAY</h2>
           <p className="italic text-gray-600">
             Know more<br />about me
           </p>
+           <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
+            <a href="/about">
+            →
+            </a>
+          </div>
         </motion.div>
         {/* CREATIVE DESIGN */}
         <motion.div
           layoutId="creative-card"
           onClick={() => navigate("/creative")}
-          className="rounded-[32px] bg-yellow-400 row-span-2 p-6 text-white"          
+          className="cursor-pointer rounded-[32px] bg-yellow-400 row-span-2 p-6 text-white relative"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+
+           {/* PLUS ICON */}
+          <div className="absolute top-4 right-4 w-7 h-7 
+                          rounded-full bg-white 
+                          flex items-center justify-center 
+                          text-gray-600 text-lg font-medium">
+            +
+          </div>
           Creative<br />Design
         </motion.div>
         {/* COMPETITION */}
           <motion.div
           layoutId="competition-card"
           onClick={() => navigate("/competition")}
-          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
+          className="cursor-pointer relative rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+              {/* PLUS ICON */}
+          <div className="absolute top-4 right-4 w-7 h-7 
+                          rounded-full bg-purple-500 
+                          flex items-center justify-center 
+                          text-gray-600 text-lg font-medium">
+            +
+          </div>
+          
           Competition
         </motion.div>
         {/* BUILT DESIGN (INTERIOR) */}
           <motion.div
           layoutId="design-inter-card"
           onClick={() => navigate("/built-design-inter")}
-          className="rounded-[32px] bg-red-500 row-span-1 p-6 text-white"          
+          className="cursor-pointer rounded-[32px] bg-red-500 row-span-1 p-6 text-white relative"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+            <div
+            className="absolute top-4 right-4 w-7 h-7 
+                      rounded-full bg-white 
+                      flex items-center justify-center 
+                      text-gray-600 text-lg font-medium
+                      pointer-events-none"
+          >
+            +
+          </div>
            Built Design<br />(Interior)
         </motion.div>
         {/* CONNECT WITH ME */}
@@ -127,20 +156,34 @@ export default function Home() {
          <motion.div
           layoutId="academic-card"
           onClick={() => navigate("/academic")}
-          className="rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
+          className="cursor-pointer relative rounded-[32px] bg-gray-200 row-span-2 p-6 text-black"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+           {/* PLUS ICON */}
+          <div className="absolute top-4 right-4 w-7 h-7 
+                          rounded-full bg-red-500 
+                          flex items-center justify-center 
+                          text-gray-600 text-lg font-medium">
+            +
+          </div>
           Academic<br />Project
         </motion.div>
           {/* BUILT DESIGN */}
         <motion.div
           layoutId="built-design-card"
           onClick={() => navigate("/built-design")}
-          className="rounded-[32px] bg-blue-300 row-span-2 p-6 text-white"          
+          className="cursor-pointer relative rounded-[32px] bg-blue-300 row-span-2 p-6 text-white"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+           {/* PLUS ICON */}
+          <div className="absolute top-4 right-4 w-7 h-7 
+                          rounded-full bg-purple-500 
+                          flex items-center justify-center 
+                          text-gray-600 text-lg font-medium">
+            +
+          </div>
           Build Design
         </motion.div>
       </div>

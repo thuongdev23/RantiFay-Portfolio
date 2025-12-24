@@ -17,7 +17,7 @@ export default function NuUrang() {
        {/* RIGHT STICKY CARD */}
       <div className="w-[320px] px-12 py-16">
         <motion.div
-          layoutId="logo-card"
+          layoutId="nu-urang-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
              <div className=" flex flex-col mt-auto">

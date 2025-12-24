@@ -37,6 +37,7 @@ export default function AcademicProject() {
           className="cursor-pointer rounded-[32px] bg-white p-6 row-span-4 col-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
+          
         >
           <h2 className=" text-xl text-black mt-auto">
             Student Tiny House City

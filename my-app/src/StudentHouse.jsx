@@ -17,7 +17,7 @@ export default function StudentHouse() {
        {/* RIGHT STICKY CARD */}
       <div className="w-[320px] px-12 py-16">
         <motion.div
-          layoutId="logo-card"
+          layoutId="student-house-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <h2 className=" text-xl text-black mt-auto">

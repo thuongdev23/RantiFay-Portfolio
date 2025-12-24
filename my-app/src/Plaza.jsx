@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-export default function WKG() {
+export default function Plaza() {
   const navigate = useNavigate();
 
   return (
@@ -17,7 +17,7 @@ export default function WKG() {
        {/* RIGHT STICKY CARD */}
       <div className="w-[320px] px-12 py-16">
         <motion.div
-          layoutId="wkg-card"
+          layoutId="plaza-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
@@ -26,7 +26,7 @@ export default function WKG() {
               Cafe + Restaurant
             </h3>
           <h2 className=" text-xl text-purple-500 mt-auto">
-            WKG
+            Plaza
           </h2>
           </div>
         </motion.div>
@@ -39,13 +39,13 @@ export default function WKG() {
             <img src=".jpg"  />
             </div>
             <div className="w-[700px] h-[700px]">
-            <img src="./BuiltDesign/wkg-1.jpg"  />
+            <img src="./BuiltDesign/villa-1.png"  />
             </div>
              <div className="w-[700px] h-[700px]">
-            <img src="./BuiltDesign/wkg-2.jpg"  />
+            <img src="./BuiltDesign/villa-2.png"  />
             </div>
              <div className="w-[700px] h-[700px]">
-            <img src="./BuiltDesign/wkg-3.jpg"  />
+            <img src="./BuiltDesign/villa-3.png"  />
             </div>
              <div className="w-[700px] h-[700px]">
             <img src="./BuiltDesign/wkg-4.jpg"  />

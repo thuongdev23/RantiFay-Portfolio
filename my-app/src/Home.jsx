@@ -8,12 +8,14 @@ export default function Home() {
       <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
         {/* ABOUT ME CARD (EXPANDABLE) */}
         <motion.div
+    
           layoutId="about-card"
           onClick={() => navigate("/about")}
           className="cursor-pointer rounded-[32px] bg-gray-200 p-6"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
+       
           <h2 className="font-semibold text-xl">Ranti FAY</h2>
           <p className="italic text-gray-600">
             Know more<br />about me
@@ -51,9 +53,10 @@ export default function Home() {
         </motion.div>
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
-          <div>
-            ✈
-            <h2 className="text-2xl mt-6">
+          <div className="h-[500px] w-[250px] flex flex-col mt-12">
+            <img src="./ballon.png" alt="animated icon" />
+            
+            <h2 className="text-2xl mt-auto mb-6">
               CONNECT<br />WITH ME
             </h2>
           </div>
@@ -64,7 +67,7 @@ export default function Home() {
           </div>
         </div>
              {/* DOWNLOAD CV */}
-        <div className="rounded-[32px] row-span-3 overflow-hidden relative">
+        {/* <div className="rounded-[32px] row-span-3 overflow-hidden relative">
           <img
             src="/img-1.jpeg"
             className="w-full h-full object-cover"
@@ -72,7 +75,43 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30 flex items-end p-6">
             <span className="text-white">Download<br />My CV</span>
           </div>
+        </div> */}
+
+                <div className="rounded-[32px] row-span-3 overflow-hidden relative">
+
+          {/* IMAGE */}
+          <img
+            src="/img-1.jpeg"
+            className="w-full h-full object-cover"
+            alt="Download CV"
+          />
+
+          {/* OVERLAY */}
+          <div className="absolute inset-0 bg-black/30 flex items-end p-6">
+            
+            <a
+              href="/CV-RANTI-FAY-2025.pdf"
+              download
+              className="text-white flex items-center gap-3 
+                        bg-white/10 backdrop-blur-sm 
+                        px-4 py-3 rounded-full 
+                        hover:bg-white/20 transition"
+            >
+              <span className="text-sm leading-tight">
+                Download<br />My CV
+              </span>
+
+              {/* ARROW ICON */}
+              <span className="w-9 h-9 rounded-full border border-white 
+                              flex items-center justify-center">
+                ↓
+              </span>
+            </a>
+
+          </div>
         </div>
+
+
          {/* ACADEMIC PROJECT */}
          <motion.div
           layoutId="academic-card"

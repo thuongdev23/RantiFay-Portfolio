@@ -54,7 +54,18 @@ export default function Home() {
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
           <div className="h-[500px] w-[250px] flex flex-col mt-12">
-            <img src="./ballon.png" alt="animated icon" />
+            {/* <img src="./ballon.png" alt="animated icon" /> */}
+            <motion.img
+            src="./ballon.png"
+            alt="animated icon"
+            className="w-[200px] mx-auto"
+            animate={{ y: [0, -15, 0] }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          />
             
             <h2 className="text-2xl mt-auto mb-6">
               CONNECT<br />WITH ME

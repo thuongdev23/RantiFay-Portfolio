@@ -5,7 +5,10 @@ export default function Competition() {
   const navigate = useNavigate();
 
   return (
-    <div className=" bg-gray-200 px-12 py-10 relative">
+    <div className=" bg-gray-200 relative
+                px-4 py-6
+                sm:px-8 sm:py-8
+                lg:px-12 lg:py-10">
 
       {/* BACK ARROW */}
       <button
@@ -19,13 +22,17 @@ export default function Competition() {
       </button>
 
       {/* GRID */}
-      <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
+      <div className=" grid grid-cols-1 gap-4
+      sm:grid-cols-2 sm:gap-5
+      lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
 
         {/* SARANG SALANG  */}
         <motion.div
           layoutId="sarang-salang-card"
           onClick={() => navigate("/sarang")}
-          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 col-span-2 flex flex-col"
+          className="rounded-[32px] bg-white p-6 flex flex-col
+        h-[200px] sm:h-[240px] lg:h-auto
+        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -60,7 +67,9 @@ export default function Competition() {
           <motion.div
           layoutId="kotak-card"
           onClick={() => navigate("/kotak")}
-          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-4 flex flex-col"
+          className="rounded-[32px] bg-white p-6 flex flex-col
+        h-[200px] sm:h-[240px] lg:h-auto
+        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -83,7 +92,9 @@ export default function Competition() {
          <motion.div
           layoutId="la-vie-en-green-card"
           onClick={() => navigate("/lavie-en-green")}
-          className="rounded-[32px]  text-xl bg-white row-span-2 p-6 text-black flex flex-col"          
+          className="rounded-[32px] bg-white p-6 flex flex-col
+        h-[200px] sm:h-[240px] lg:h-auto
+        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -105,7 +116,9 @@ export default function Competition() {
          <motion.div
           layoutId="nu-urang-card"
           onClick={() => navigate("/nu-urang")}
-          className="rounded-[32px]  text-xl bg-white row-span-2 col-span-2 p-6 text-black flex flex-col"          
+          className="rounded-[32px] bg-white p-6 flex flex-col
+        h-[200px] sm:h-[240px] lg:h-auto
+        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

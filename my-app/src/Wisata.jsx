@@ -16,7 +16,16 @@ export default function Wisata() {
         </span>
       </button>
       {/* GRID */}
-      <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
+      <div className="grid
+                      grid-cols-1
+                      gap-4
+
+                      sm:grid-cols-2
+                      sm:gap-5
+
+                      lg:grid-cols-4
+                      lg:gap-6 
+                      lg:h-[calc(100vh-80px)]">
 
         {/* PLAZA  */}
         <motion.div
@@ -91,7 +100,7 @@ export default function Wisata() {
           {/* VILLA (2) */}
          <motion.div
           layoutId="villa2-card"
-          onClick={() => navigate("/villa-2")}
+          onClick={() => navigate("/villa2")}
           className="rounded-[32px]  text-xl bg-white row-span-2  p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}

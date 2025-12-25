@@ -5,7 +5,10 @@ export default function BuiltDesign() {
   const navigate = useNavigate();
 
   return (
-    <div className=" bg-blue-300 px-12 py-10 relative">
+    <div className=" bg-blue-300 relative
+                px-4 py-6
+                sm:px-8 sm:py-8
+                lg:px-12 lg:py-10">
 
       {/* BACK ARROW */}
       <button
@@ -19,7 +22,9 @@ export default function BuiltDesign() {
       </button>
 
       {/* GRID */}
-      <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
+      <div className="grid grid-cols-1 gap-4
+      sm:grid-cols-1 sm:gap-5
+      lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
 
         {/* WKG*/}
         <motion.div

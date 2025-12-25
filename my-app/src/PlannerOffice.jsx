@@ -20,6 +20,7 @@ export default function PlannerOffice() {
           layoutId="planner-office-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
+          <p className="text-red-500 font-thin mb-72 italic">An interior design for a mixed building for office and for a dwelling space. The aim is to design a place that is luxurious yet without it being overdone. </p>
           <h2 className="font-semibold text-xl text-red-500 mt-auto">
             C-Planner Office 
           </h2>

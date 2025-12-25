@@ -5,8 +5,8 @@ export default function Book() {
   const navigate = useNavigate();
 
   return (
-    
     <div className="h-screen bg-yellow-500 flex relative overflow-hidden">
+
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -20,34 +20,54 @@ export default function Book() {
           layoutId="logo-card"
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
-          <h2 className="font-semibold text-xl text-black mt-auto">
+          <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
+            {/* <p className="text-purple-500 font-thin mb-72 italic">A cafe located in Indramayu. The idea was to combine the magnificent landscape with a traditional buildings and a chic interior design.</p> */}
+            {/* <h3 className="italic text-purple-500 font-thin">
+              Cafe + Restauran
+            </h3> */}
+          <h2 className=" text-xl text-yellow-500 mt-auto">
             Book
           </h2>
+          </div>
         </motion.div>
       </div>
-      {/* LEFT SCROLLABLE CONTENT */}
-     <div className="flex-1 overflow-y-auto px-12 py-10 relative">
-        <div className="relative min-h-[200vh]">
 
-             <div className="absolute inset-0 pointer-events-none z-0">
-                <img
-          src="/book-1.png"
-          className="absolute top-[1%] left-[5%] w-[910px] h-[700px]"
-        />
-       </div>
-      </div> 
-      {/* EXTRA CONTENT */}
-        <div className="absolute inset-0 pointer-events-none z-0">
-                <img
-          src="/book-2.png"
-          className="absolute top-[100%] left-[0%] w-[500px] h-[700px]"
-        />
-        <img
-          src="/book-3.png"
-          className="absolute top-[100%] left-[50%] w-[500px] h-[700px]"
-        />
-      </div> 
-      </div>
+      {/* LEFT SCROLLABLE CONTENT */}
+    <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
+  <div
+    className="
+      grid
+      grid-cols-1
+      gap-8
+      max-w-[1400px]
+    "
+  >
+    {/* TOP LARGE IMAGE */}
+    <div className="w-full">
+      <img
+        src="/book-1.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+
+    {/* BOTTOM TWO IMAGES */}
+    <div className="grid grid-cols-2 gap-8">
+      <img
+        src="/book-2.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 2"
+      />
+
+      <img
+        src="/book-3.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 3"
+      />
+    </div>
+  </div>
+</div>
+
     </div>
   );
 }

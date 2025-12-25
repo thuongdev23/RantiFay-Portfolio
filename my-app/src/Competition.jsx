@@ -30,9 +30,7 @@ export default function Competition() {
         <motion.div
           layoutId="sarang-salang-card"
           onClick={() => navigate("/sarang")}
-          className="rounded-[32px] bg-white p-6 flex flex-col
-        h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"
+          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 col-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -67,9 +65,7 @@ export default function Competition() {
           <motion.div
           layoutId="kotak-card"
           onClick={() => navigate("/kotak")}
-          className="rounded-[32px] bg-white p-6 flex flex-col
-        h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"
+          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-4 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -92,9 +88,7 @@ export default function Competition() {
          <motion.div
           layoutId="la-vie-en-green-card"
           onClick={() => navigate("/lavie-en-green")}
-          className="rounded-[32px] bg-white p-6 flex flex-col
-        h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"          
+          className="rounded-[32px]  text-xl bg-white row-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
@@ -116,9 +110,7 @@ export default function Competition() {
          <motion.div
           layoutId="nu-urang-card"
           onClick={() => navigate("/nu-urang")}
-          className="rounded-[32px] bg-white p-6 flex flex-col
-        h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"          
+          className="rounded-[32px]  text-xl bg-white row-span-2 col-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

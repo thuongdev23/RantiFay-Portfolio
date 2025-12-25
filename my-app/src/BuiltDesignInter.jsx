@@ -16,7 +16,16 @@ export default function BuiltDesignInter() {
         </span>
       </button>
       {/* GRID */}
-      <div className="grid grid-cols-4 grid-rows-4 gap-6 h-[calc(100vh-80px)]">
+      <div className="grid
+  grid-cols-1
+  gap-4
+
+  sm:grid-cols-2
+  sm:gap-5
+
+  lg:grid-cols-4
+  lg:gap-6 
+  lg:h-[calc(100vh-80px)]">
 
         {/* CUCIIN MAMI  */}
         <motion.div

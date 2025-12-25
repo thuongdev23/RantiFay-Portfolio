@@ -13,7 +13,8 @@ export default function Home() {
   sm:gap-5
 
   lg:grid-cols-4
-  lg:gap-6">
+  lg:gap-6 
+  lg:h-[calc(100vh-80px)]">
         {/* ABOUT ME CARD (EXPANDABLE) */}
         <motion.div
     
@@ -90,7 +91,7 @@ export default function Home() {
         </motion.div>
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
-          <div className="h-[500px] w-[250px] flex flex-col mt-12">
+          <div className="h-[200px] w-[250px] flex flex-col mt-12">
             {/* <img src="./ballon.png" alt="animated icon" /> */}
             <motion.img
             src="./ballon.png"
@@ -104,7 +105,7 @@ export default function Home() {
             }}
           />
             
-            <h2 className="text-2xl mt-auto mb-6">
+            <h2 className="text-2xl mt-56 ">
               CONNECT<br />WITH ME
             </h2>
           </div>
@@ -125,7 +126,7 @@ export default function Home() {
           </div>
         </div> */}
 
-                <div className="rounded-[32px] row-span-3 overflow-hidden relative">
+          <div className="rounded-[32px] row-span-3 overflow-hidden relative">
 
           {/* IMAGE */}
           <img

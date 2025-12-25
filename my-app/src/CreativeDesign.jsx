@@ -77,7 +77,7 @@ export default function CreativeDesin() {
           onClick={() => navigate("/branding")}
           className=" rounded-[32px] bg-white p-6 flex flex-col
         h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 cursor-pointer"
+        col-span-1 sm:col-span-2 lg:col-span-2 row-span-2  cursor-pointer"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

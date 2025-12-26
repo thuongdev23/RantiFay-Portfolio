@@ -38,27 +38,45 @@ export default function Branding() {
 
     {/* ===== TOP ASSETS GRID ===== */}
     <div className="grid grid-cols-4 gap-8">
+      <div>
+      <h2>2024</h2>
+      <h1 className="text-3xl">Branding</h1>
+      <h2>Logo Design</h2>
+      <img src="./Branding/brand-11.png" className="asset mt-5 left-[2%]" />
+      <img src="./Branding/brand-12.png" className="asset mt-3" />
+       <img src="./Branding/brand-7.png" className="asset" />
+      </div>
+      <div>
+        <h1>Landing Page</h1>
       <img src="./Branding/brand-1.png" className="asset" />
-      <img src="./Branding/brand-5.png" className="asset" />
-      <img src="./Branding/brand-7.png" className="asset" />
-      <img src="./Branding/brand-8.png" className="asset" />
-
-      <img src="./Branding/brand-9.png" className="asset" />
-      <img src="./Branding/brand-10.png" className="asset" />
-      <img src="./Branding/brand-11.png" className="asset" />
-      <img src="./Branding/brand-12.png" className="asset" />
-
+     </div>
+     <div>
+      
+      <h1>Promotion</h1>
+      <div className="grid grid-cols-2">
       <img src="./Branding/brand-13.png" className="asset" />
       <img src="./Branding/brand-14.png" className="asset" />
+     </div>
+      <img src="./Branding/brand-5.png" className="asset" />
+      
+     </div>
+      <div>
+        <h1>Ads</h1>
+      <div className="grid grid-cols-2">
       <img src="./Branding/brand-15.png" className="asset" />
+      <img src="./Branding/brand-16.png" className="large-img" />
+      </div>
+      <img src="./Branding/brand-17.png" className="large-img" />
+      </div>
     </div>
 
     {/* ===== FEATURED BRANDING CARD ===== */}
   
     {/* ===== BOTTOM LARGE IMAGES ===== */}
-    <div className="grid grid-cols-2 gap-12">
-      <img src="./Branding/brand-16.png" className="large-img" />
-      <img src="./Branding/brand-17.png" className="large-img" />
+    <div className="grid grid-cols-3 gap-8">
+      <img src="./Branding/brand-10.png" className="asset h-[350px] w-[400px] " />
+      <img src="./Branding/brand-9.png" className="asset h-[350px] w-[400px]" />
+      <img src="./Branding/brand-8.png" className="asset h-[350px] w-[400px]" />
     </div>
 
   </div>

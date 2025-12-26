@@ -35,14 +35,14 @@ export default function Competition() {
           transition={{ duration: 0.4 }}
         >
           <div className=" flex flex-col mt-auto">
-          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+          <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             UMS Archi Competition
             Favorite Winner 
           </h3>
-           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+           <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             Favorite Winner 
           </h3>
-          <h2 className=" text-xl text-gray-300 mt-auto">
+          <h2 className=" text-xl text-gray-500 mt-auto">
             Sarang Salang
           </h2>
           </div>
@@ -56,7 +56,7 @@ export default function Competition() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className=" text-xl text-gray-300 mt-auto">
+          <h2 className=" text-xl text-gray-500 mt-auto">
             Competition
           </h2>
         </motion.div>
@@ -70,13 +70,13 @@ export default function Competition() {
           transition={{ duration: 0.4 }}
         >
             <div className=" flex flex-col mt-auto">
-          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+          <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             UPI Architecture Competition
           </h3>
-           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+           <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             4th Winner 
           </h3>
-          <h2 className=" text-xl text-gray-300 mt-auto">
+          <h2 className=" text-xl text-gray-500 mt-auto">
             Kotak-Kotak
           </h2>
           </div>
@@ -93,14 +93,14 @@ export default function Competition() {
           transition={{ duration: 0.4 }}
         >
          <div className=" flex flex-col mt-auto">
-          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+          <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             UMS Interior Competition
           
           </h3>
-           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+           <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             Favorite Winner 
           </h3>
-          <h2 className=" text-xl text-gray-300 mt-auto">
+          <h2 className=" text-xl text-gray-500 mt-auto">
             La Vie en green
           </h2>
           </div>
@@ -115,13 +115,13 @@ export default function Competition() {
           transition={{ duration: 0.4 }}
         >
           <div className=" flex flex-col mt-auto">
-          <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+          <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             West Java Governmen Competition
           </h3>
-           <h3 className="text-gray-300 text-xl mt-auto font-thin italic">
+           <h3 className="text-gray-400 text-xl mt-auto font-thin italic">
             Audience Favorite
           </h3>
-          <h2 className=" text-xl text-gray-300 mt-auto">
+          <h2 className=" text-xl text-gray-500 mt-auto">
             Nu Urang
           </h2>
           </div>

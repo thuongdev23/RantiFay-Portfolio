@@ -50,7 +50,9 @@ export default function Home() {
                           text-gray-600 text-lg font-medium">
             +
           </div>
+          <h1 className="text-xl">
           Creative<br />Design
+          </h1>
         </motion.div>
         {/* COMPETITION */}
           <motion.div
@@ -67,8 +69,9 @@ export default function Home() {
                           text-gray-600 text-lg font-medium">
             +
           </div>
-          
+          <h1 className="text-xl">
           Competition
+          </h1>
         </motion.div>
         {/* BUILT DESIGN (INTERIOR) */}
           <motion.div
@@ -87,7 +90,9 @@ export default function Home() {
           >
             +
           </div>
+          <h1 className="text-xl">
            Built Design<br />(Interior)
+           </h1>
         </motion.div>
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
@@ -176,7 +181,9 @@ export default function Home() {
                           text-gray-600 text-lg font-medium">
             +
           </div>
+          <h1 className="text-xl">
           Academic<br />Project
+          </h1>
         </motion.div>
           {/* BUILT DESIGN */}
         <motion.div
@@ -193,7 +200,9 @@ export default function Home() {
                           text-gray-600 text-lg font-medium">
             +
           </div>
+          <h1 className="text-xl">
           Build Design
+          </h1>
         </motion.div>
       </div>
     </div>

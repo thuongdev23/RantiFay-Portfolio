@@ -21,7 +21,7 @@ export default function CiwideyResort() {
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
-            <p className="text-purple-500">
+            <p className="text-purple-500 font-thin italic mb-48">
               A resort design with traditional mixed with an openness design approach that is located in West Java. Nevertheless, the design stay chic but doesn't forget the root of the culture.
             </p>
             <h3 className="italic text-purple-500 font-thin">
@@ -36,19 +36,35 @@ export default function CiwideyResort() {
 
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-          {/* <div className="flex flex-auto"> */}
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-1.jpg"  />
-            </div>
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-2.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-3.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-4.jpg"  />
-            </div>
+           {/* TOP LARGE IMAGE */}
+          <div className="w-full">
+            <img
+              src="./Ciwidey/ciwidey-1.png"
+              className="w-full h-auto object-cover "
+              alt="Villa view 1"
+            />
+          </div>
+
+          {/* BOTTOM TWO IMAGES */}
+          <div className="grid grid-cols-3 gap-0">
+            <img
+              src="./Ciwidey/ciwidey-2.png"
+              className="w-full h-auto object-cover "
+              alt="Villa view 2"
+            />
+
+            <img
+              src="./Ciwidey/ciwidey-3.png"
+              className="w-full h-auto object-cover "
+              alt="Villa view 3"
+            />
+            <img
+              src="./Ciwidey/ciwidey-4.png"
+              className="w-full h-auto object-cover"
+              alt="Villa view 3"
+            />
+          </div>
+          
             
 
         </div>

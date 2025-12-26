@@ -46,22 +46,22 @@ export default function Villa() {
     <div className="w-full">
       <img
         src="./BuiltDesign/villa-1.png"
-        className="w-full h-auto object-cover rounded-xl"
+        className="w-full h-auto object-cover "
         alt="Villa view 1"
       />
     </div>
 
     {/* BOTTOM TWO IMAGES */}
-    <div className="grid grid-cols-2 gap-8">
+    <div className="grid grid-cols-2 gap-0">
       <img
         src="./BuiltDesign/villa-2.png"
-        className="w-full h-auto object-cover rounded-xl"
+        className="w-full h-auto object-cover "
         alt="Villa view 2"
       />
 
       <img
         src="./BuiltDesign/villa-3.png"
-        className="w-full h-auto object-cover rounded-xl"
+        className="w-full h-auto object-cover "
         alt="Villa view 3"
       />
     </div>

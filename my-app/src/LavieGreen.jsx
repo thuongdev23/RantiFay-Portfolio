@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
 
 export default function LavieGreen() {
   const navigate = useNavigate();
+  const [zoomImg, setZoomImg] = useState(null);
+  
 
   return (
     <div className="h-screen bg-gray-200 flex relative overflow-hidden">
@@ -40,17 +44,53 @@ export default function LavieGreen() {
 
           {/* <div className="flex flex-auto"> */}
             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/lavie-en-green-1.jpg"  />
+            <img src="./Competition/lavie-en-green-1.jpg" 
+             className="cursor-zoom-in"
+            onClick={() => setZoomImg("./Competition/lavie-en-green-1.jpg")}
+            alt=""  />
             </div>
             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/lavie-en-green-2.jpg"  />
+            <img src="./Competition/lavie-en-green-2.jpg" 
+             className="cursor-zoom-in"
+            onClick={() => setZoomImg("./Competition/lavie-en-green-2.jpg")}
+            alt=""  />
             </div>
              <div className="w-[700px] h-[700px]">
-            <img src="./Competition/lavie-en-green-2.jpg"  />
+            <img src="./Competition/lavie-en-green-3.jpg" 
+             className="cursor-zoom-in"
+            onClick={() => setZoomImg("./Competition/lavie-en-green-3.jpg")}
+            alt=""  />
             </div>
             
 
         </div>
+                 {zoomImg && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
+          onClick={() => setZoomImg(null)}
+        >
+          {/* CLOSE BUTTON */}
+          <button
+            className="absolute top-6 right-6 text-white text-3xl"
+            onClick={() => setZoomImg(null)}
+          >
+            ✕
+          </button>
+
+          {/* IMAGE */}
+          <img
+            src={zoomImg}
+            className="
+              max-w-[90vw]
+              max-h-[90vh]
+              object-contain
+              cursor-zoom-out
+            "
+            alt=""
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+)}
     </div>
   );
 }

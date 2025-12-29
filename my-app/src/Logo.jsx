@@ -73,6 +73,40 @@ export default function Logo() {
             </div>
           </div>
         </div>
+
+        <div className="max-w-xl">
+
+          <h4 className="text-sm">2024</h4>
+          <h1 className="text-3xl font-semibold mt-2">Logo</h1>
+          <p className="mt-4 italic">
+            Logo mockup for vocational engineering school
+          </p>
+          <div className="mt-10 grid grid-cols-3 gap-6 max-w-[640px]">
+            <img
+              src="/logo-1.png"
+              className="w-full aspect-square object-contain"
+            />
+            <img
+              src="/logo-2.png"
+              className="w-full aspect-square object-contain"
+            />
+            <img
+              src="/logo-3.png"
+              className="w-full aspect-square object-contain"
+            />
+            <img
+              src="/logo-4.png"
+              className="w-full aspect-square object-contain"
+            />
+            <img
+              src="/logo-5.png"
+              className="w-full aspect-square object-contain"
+            />
+           
+          </div>
+
+        </div>
+
       </div>
     </div>
   );

@@ -29,20 +29,51 @@ export default function HouseWorkshop() {
 
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-          {/* <div className="flex flex-auto"> */}
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-1.jpg"  />
-            </div>
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-2.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-3.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-4.jpg"  />
-            </div>
-            
+         <div className="w-full">
+      <img
+        src="./Interior/garage-1.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+     <div className="w-full">
+     <img
+        src="./Interior/garage-6.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+     <div className="w-full">
+     <img
+        src="./Interior/garage-2.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+         <div className="w-full">
+     <img
+        src="./Interior/garage-3.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+    <div className="grid grid-cols-2 gap-3">
+    <div className="w-full">
+     <img
+        src="./Interior/garage-4.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+    <div className="w-full">
+     <img
+        src="./Interior/garage-5.png"
+        className="w-full h-auto object-cover rounded-xl"
+        alt="Villa view 1"
+      />
+    </div>
+    </div>
+
 
         </div>
     </div>

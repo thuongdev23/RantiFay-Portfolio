@@ -30,19 +30,55 @@ export default function PlannerOffice() {
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
           {/* <div className="flex flex-auto"> */}
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-1.jpg"  />
-            </div>
-            <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-2.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-3.jpg"  />
-            </div>
-             <div className="w-[700px] h-[700px]">
-            <img src="./Competition/nu-urang-4.jpg"  />
-            </div>
-            
+         <div className="w-full">
+      <img
+        src="./Interior/planner-1.png"
+        className="w-full h-auto object-cover "
+        alt="Villa view 1"
+      />
+    </div>
+
+    {/* BOTTOM TWO IMAGES */}
+    <div className="grid grid-cols-2 gap-0">
+      <img
+        src="./Interior/planner-2.png"
+        className="w-full h-auto object-cover"
+        alt="Villa view 2"
+      />
+
+      <img
+        src="./Interior/planner-3.png"
+        className="w-full h-auto object-cover "
+        alt="Villa view 3"
+      />
+    </div>
+    <div className="grid grid-cols-2 gap-0">
+      <img
+        src="./Interior/planner-4.png"
+        className="w-full h-auto object-cover "
+        alt="Villa view 2"
+      />
+
+      <img
+        src="./Interior/planner-5.png"
+        className="w-full h-auto object-cover "
+        alt="Villa view 3"
+      />
+    </div>
+    <div className="grid grid-cols-1 gap-0">
+      <img
+        src="./Interior/planner-6.png"
+        className="w-full h-auto object-cover "
+        alt="Villa view 2"
+      />
+
+      {/* <img
+        src="./BuiltDesign/wkg-6.jpg"
+        className="w-full h-auto object-cover"
+        alt="Villa view 3"
+      /> */}
+    </div>
+   
 
         </div>
     </div>

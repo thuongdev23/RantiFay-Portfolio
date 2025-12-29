@@ -60,7 +60,7 @@ export default function CiwideyResort() {
             />
             <img
               src="./Ciwidey/ciwidey-4.png"
-              className="w-full h-auto object-cover"
+              className="w-full h-[425px] object-cover"
               alt="Villa view 3"
             />
           </div>

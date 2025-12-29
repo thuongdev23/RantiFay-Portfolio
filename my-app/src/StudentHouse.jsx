@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
 
 export default function StudentHouse() {
+  const [zoomImg, setZoomImg] = useState(null);
   const navigate = useNavigate();
 
   return (
@@ -28,55 +31,43 @@ export default function StudentHouse() {
 
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-        {/* <div className="max-w-xl">
-
-          <h4 className="text-sm">2025</h4>
-          <h1 className="text-3xl font-semibold mt-2">Logo</h1>
-
-          <p className="mt-4 italic">
-            Logo design for Indonesian Student Organization in Türkiye
-          </p>
-
-          <img src="./Logo/logos-01.png" className="mt-10 w-[220px]" />
-
-          <p className="mt-6 font-medium">M+N</p>
-
-          <div className="flex gap-3 mt-6">
-            <div className="w-6 h-6 bg-red-700 rounded" />
-            <div className="w-6 h-6 bg-red-500 rounded" />
-            <div className="w-6 h-6 bg-black rounded" />
-          </div>
-
-          <p className="mt-4 text-sm italic">
-            Red and Black as Main Color<br />
-            Different Department = Different Color
-          </p> */}
-
-          {/* <div className="flex flex-auto"> */}
             <div className="w-[700px] h-[700px]">
-            <img src="/student-house.png"  />
+            <img src="/student-house.png" 
+             className="cursor-zoom-in"
+            onClick={() => setZoomImg("/student-house.png")}
+            alt="" />
             </div>
-             {/* <div className="w-[200px] h-[200px]">
-            <img src="./Logo/logos-05.png"  />
-            </div>
-             <div className="w-[200px] h-[200px]">
-            <img src="./Logo/logos-06.png"  />
-            </div>
-             <div className="w-[200px] h-[200px]">
-            <img src="./Logo/logos-07.png"  />
-            </div>
-             <div className="w-[200px] h-[200px]">
-            <img src="./Logo/logos-08.png"  />
-            </div>
-             <div className="w-[200px] h-[200px]">
-            <img src="./Logo/logos-09.png"  />
-            </div>
-          </div> */}
+           
 
         </div>
 
+         {zoomImg && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
+          onClick={() => setZoomImg(null)}
+        >
+          {/* CLOSE BUTTON */}
+          <button
+            className="absolute top-6 right-6 text-white text-3xl"
+            onClick={() => setZoomImg(null)}
+          >
+            ✕
+          </button>
 
-      {/* </div> */}
+          {/* IMAGE */}
+          <img
+            src={zoomImg}
+            className="
+              max-w-[90vw]
+              max-h-[90vh]
+              object-contain
+              cursor-zoom-out
+            "
+            alt=""
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+)}
 
      
 

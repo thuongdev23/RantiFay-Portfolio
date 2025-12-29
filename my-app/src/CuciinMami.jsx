@@ -21,11 +21,11 @@ export default function CuciinMami() {
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
-            <p className="text-purple-500 font-thin mb-72 italic">A laundromat design with a colorful design approach, mainly with blue and pink color that popped out and give the space a fresh yet modish look.</p>
+            <p className="text-red-500 font-thin mb-72 italic">A laundromat design with a colorful design approach, mainly with blue and pink color that popped out and give the space a fresh yet modish look.</p>
             <h3 className="italic text-purple-500 font-thin">
               
             </h3>
-          <h2 className=" text-xl text-purple-500 mt-auto">
+          <h2 className=" text-xl text-red-500 mt-auto">
             Cuciin Mami
           </h2>
           </div>
@@ -33,50 +33,41 @@ export default function CuciinMami() {
       </div>
       {/* LEFT SCROLLABLE CONTENT */}
   <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
-    <div className="w-full">
+     <div className="w-full">
       <img
-        src="./BuiltDesign/villa2-4.jpg"
+        src="./Interior/cuciin-1.png"
         className="w-full h-auto object-cover rounded-xl"
         alt="Villa view 1"
       />
     </div>
      <div className="w-full">
      <img
-        src="./BuiltDesign/villa2-5.jpg"
+        src="./Interior/cuciin-2.png"
         className="w-full h-auto object-cover rounded-xl"
         alt="Villa view 1"
       />
     </div>
          <div className="w-full">
      <img
-        src="./BuiltDesign/villa2-6.jpg"
+        src="./Interior/cuciin-3.png"
         className="w-full h-auto object-cover rounded-xl"
         alt="Villa view 1"
       />
     </div>
     <div className="w-full">
      <img
-        src="./BuiltDesign/villa2-6.png"
+        src="./Interior/cuciin-4.png"
         className="w-full h-auto object-cover rounded-xl"
         alt="Villa view 1"
       />
     </div>
     <div className="w-full">
      <img
-        src="./BuiltDesign/villa2-5.png"
+        src="./Interior/cuciin-5.png"
         className="w-full h-auto object-cover rounded-xl"
         alt="Villa view 1"
       />
     </div>
-    <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-5.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-            
-
         </div>
     </div>
   );

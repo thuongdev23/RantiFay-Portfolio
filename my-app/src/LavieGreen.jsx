@@ -7,10 +7,8 @@ export default function LavieGreen() {
   const navigate = useNavigate();
   const [zoomImg, setZoomImg] = useState(null);
   
-
   return (
     <div className="h-screen bg-gray-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -37,11 +35,8 @@ export default function LavieGreen() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-        
-
           {/* <div className="flex flex-auto"> */}
             <div className="w-[700px] h-[700px]">
             <img src="./Competition/lavie-en-green-1.jpg" 
@@ -61,10 +56,8 @@ export default function LavieGreen() {
             onClick={() => setZoomImg("./Competition/lavie-en-green-3.jpg")}
             alt=""  />
             </div>
-            
-
         </div>
-                 {zoomImg && (
+      {zoomImg && (
         <div
           className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
           onClick={() => setZoomImg(null)}
@@ -90,7 +83,7 @@ export default function LavieGreen() {
             onClick={(e) => e.stopPropagation()}
           />
         </div>
-)}
+      )}
     </div>
   );
 }

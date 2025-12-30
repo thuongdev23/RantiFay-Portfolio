@@ -1,16 +1,12 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-
-
 export default function SarangSalang() {
-  const navigate = useNavigate();
+
+const navigate = useNavigate();
 const [zoomImg, setZoomImg] = useState(null);
-
-
   return (
     <div className="h-screen bg-gray-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -38,7 +34,6 @@ const [zoomImg, setZoomImg] = useState(null);
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
           <div className="w-[700px] h-[700px]">
@@ -55,10 +50,8 @@ const [zoomImg, setZoomImg] = useState(null);
             onClick={() => setZoomImg("./Competition/sarang-2.jpg")}
             alt="" />
             </div>
-            
-
         </div>
-        {zoomImg && (
+      {zoomImg && (
         <div
           className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
           onClick={() => setZoomImg(null)}
@@ -84,11 +77,7 @@ const [zoomImg, setZoomImg] = useState(null);
             onClick={(e) => e.stopPropagation()}
           />
         </div>
-)}
-
+      )}
     </div>
-
-
-
   );
 }

@@ -31,26 +31,22 @@ export default function Amphitheatre() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
-  <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
-    <div className="w-full">
-      <img
-        src="./BuiltDesign/amphi-2.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-     <div className="w-full">
-     <img
-        src="./BuiltDesign/amphi-1.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-         
-            
-
+        <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
+          <div className="w-full">
+            <img
+              src="./BuiltDesign/amphi-2.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
+          <div className="w-full">
+          <img
+              src="./BuiltDesign/amphi-1.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
         </div>
     </div>
   );

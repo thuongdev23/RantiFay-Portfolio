@@ -8,7 +8,6 @@ export default function Uluonder() {
 
   return (
     <div className="h-screen bg-gray-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -28,10 +27,6 @@ export default function Uluonder() {
           </h2>
         </motion.div>
       </div>
-      {/* IN HERE NEED TO BUILD THE ZOOM FUNCTION 
-      WHEN CLICK TO ZOOM BUTTON IT WILL DISPLAY THE
-      PRESENTATION IN FULL SCREEN ??? */}
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
             <div className="w-[700px] h-[700px]">
@@ -41,7 +36,7 @@ export default function Uluonder() {
             alt="" />
             </div>
         </div>
-               {zoomImg && (
+      {zoomImg && (
         <div
           className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
           onClick={() => setZoomImg(null)}
@@ -67,7 +62,7 @@ export default function Uluonder() {
             onClick={(e) => e.stopPropagation()}
           />
         </div>
-)}
+      )}
     </div>
   );
 }

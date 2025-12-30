@@ -5,9 +5,7 @@ import { useState } from "react";
 
 export default function NuUrang() {
   const [zoomImg, setZoomImg] = useState(null);
-  
   const navigate = useNavigate();
-
   return (
     <div className="h-screen bg-gray-200 flex relative overflow-hidden">
 
@@ -65,10 +63,8 @@ export default function NuUrang() {
             onClick={() => setZoomImg("./Competition/nu-urang-4.jpg")}
             alt=""  />
             </div>
-            
-
         </div>
-                 {zoomImg && (
+      {zoomImg && (
         <div
           className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
           onClick={() => setZoomImg(null)}
@@ -94,7 +90,7 @@ export default function NuUrang() {
             onClick={(e) => e.stopPropagation()}
           />
         </div>
-)}
+      )}
     </div>
   );
 }

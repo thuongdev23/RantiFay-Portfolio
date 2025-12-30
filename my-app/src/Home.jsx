@@ -5,16 +5,10 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-white px-12 py-10">
-      <div className="  grid
-  grid-cols-1
-  gap-4
-
-  sm:grid-cols-2
-  sm:gap-5
-
-  lg:grid-cols-4
-  lg:gap-6 
-  lg:h-[calc(100vh-80px)]">
+      <div className="  grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5
+                        lg:grid-cols-4
+                        lg:gap-6 
+                        lg:h-[calc(100vh-80px)]">
         {/* ABOUT ME CARD (EXPANDABLE) */}
         <motion.div
     
@@ -120,17 +114,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-             {/* DOWNLOAD CV */}
-        {/* <div className="rounded-[32px] row-span-3 overflow-hidden relative">
-          <img
-            src="/img-1.jpeg"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/30 flex items-end p-6">
-            <span className="text-white">Download<br />My CV</span>
-          </div>
-        </div> */}
-
+          {/* Download cv */}
           <div className="rounded-[32px] row-span-3 overflow-hidden relative">
 
           {/* IMAGE */}
@@ -161,11 +145,8 @@ export default function Home() {
                 ↓
               </span>
             </a>
-
           </div>
         </div>
-
-
          {/* ACADEMIC PROJECT */}
          <motion.div
           layoutId="academic-card"

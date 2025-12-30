@@ -6,7 +6,6 @@ export default function PlannerOffice() {
 
   return (
     <div className="h-screen bg-red-500 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -26,7 +25,6 @@ export default function PlannerOffice() {
           </h2>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
           {/* <div className="flex flex-auto"> */}
@@ -39,47 +37,39 @@ export default function PlannerOffice() {
     </div>
 
     {/* BOTTOM TWO IMAGES */}
-    <div className="grid grid-cols-2 gap-0">
-      <img
-        src="./Interior/planner-2.png"
-        className="w-full h-auto object-cover"
-        alt="Villa view 2"
-      />
+           <div className="grid grid-cols-2 gap-0">
+                <img
+                  src="./Interior/planner-2.png"
+                  className="w-full h-auto object-cover"
+                  alt="Villa view 2"
+                />
 
-      <img
-        src="./Interior/planner-3.png"
-        className="w-full h-auto object-cover "
-        alt="Villa view 3"
-      />
-    </div>
-    <div className="grid grid-cols-2 gap-0">
-      <img
-        src="./Interior/planner-4.png"
-        className="w-full h-auto object-cover "
-        alt="Villa view 2"
-      />
+                <img
+                  src="./Interior/planner-3.png"
+                  className="w-full h-auto object-cover "
+                  alt="Villa view 3"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-0">
+                <img
+                  src="./Interior/planner-4.png"
+                  className="w-full h-auto object-cover "
+                  alt="Villa view 2"
+                />
 
-      <img
-        src="./Interior/planner-5.png"
-        className="w-full h-auto object-cover "
-        alt="Villa view 3"
-      />
-    </div>
-    <div className="grid grid-cols-1 gap-0">
-      <img
-        src="./Interior/planner-6.png"
-        className="w-full h-auto object-cover "
-        alt="Villa view 2"
-      />
-
-      {/* <img
-        src="./BuiltDesign/wkg-6.jpg"
-        className="w-full h-auto object-cover"
-        alt="Villa view 3"
-      /> */}
-    </div>
-   
-
+                <img
+                  src="./Interior/planner-5.png"
+                  className="w-full h-auto object-cover "
+                  alt="Villa view 3"
+                />
+              </div>
+              <div className="grid grid-cols-1 gap-0">
+                <img
+                  src="./Interior/planner-6.png"
+                  className="w-full h-auto object-cover "
+                  alt="Villa view 2"
+                />
+          </div>
         </div>
     </div>
   );

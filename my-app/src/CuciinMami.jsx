@@ -32,42 +32,42 @@ export default function CuciinMami() {
         </motion.div>
       </div>
       {/* LEFT SCROLLABLE CONTENT */}
-  <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
-     <div className="w-full">
-      <img
-        src="./Interior/cuciin-1.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-     <div className="w-full">
-     <img
-        src="./Interior/cuciin-2.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-         <div className="w-full">
-     <img
-        src="./Interior/cuciin-3.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-    <div className="w-full">
-     <img
-        src="./Interior/cuciin-4.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-    <div className="w-full">
-     <img
-        src="./Interior/cuciin-5.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
+        <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
+          <div className="w-full">
+            <img
+              src="./Interior/cuciin-1.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
+          <div className="w-full">
+          <img
+              src="./Interior/cuciin-2.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
+              <div className="w-full">
+          <img
+              src="./Interior/cuciin-3.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
+          <div className="w-full">
+          <img
+              src="./Interior/cuciin-4.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
+          <div className="w-full">
+          <img
+              src="./Interior/cuciin-5.png"
+              className="w-full h-auto object-cover rounded-xl"
+              alt="Villa view 1"
+            />
+          </div>
         </div>
     </div>
   );

@@ -5,11 +5,7 @@ export default function BuiltDesign() {
   const navigate = useNavigate();
 
   return (
-    <div className=" bg-blue-300 relative
-                px-4 py-6
-                sm:px-8 sm:py-8
-                lg:px-12 lg:py-10">
-
+    <div className=" bg-blue-300 relative px-4 py-6 sm:px-8 sm:py-8 lg:px-12 lg:py-10">
       {/* BACK ARROW */}
       <button
         onClick={() => navigate(-1)}
@@ -18,14 +14,11 @@ export default function BuiltDesign() {
         <span className="w-11 h-11  flex items-center justify-center">
           ←
         </span>
-     
       </button>
-
       {/* GRID */}
       <div className="grid grid-cols-1 gap-4
       sm:grid-cols-1 sm:gap-5
       lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
-
         {/* WKG*/}
         <motion.div
           layoutId="wkg-card"
@@ -43,7 +36,6 @@ export default function BuiltDesign() {
           </h2>
           </div>
         </motion.div>
-
           {/* CIWIDEY RESORT */}
           <motion.div
           layoutId="ciwidey-resort-card"
@@ -61,8 +53,7 @@ export default function BuiltDesign() {
           </h2>
           </div>
         </motion.div>
-
-            {/* IMAJI */}
+        {/* IMAJI */}
           <motion.div
           layoutId="imaji-card"
           onClick={() => navigate("/imaji")}
@@ -95,9 +86,7 @@ export default function BuiltDesign() {
             Wisata Pasir Gibug Brebes
           </h2>
           </div>
-         
         </motion.div>
-      
           {/* BUILT DESIGN  */}
          <motion.div
           layoutId="built-design-card"
@@ -106,7 +95,6 @@ export default function BuiltDesign() {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-  
         <h2 className=" text-xl text-purple-500 mt-auto">
             Built Design
         </h2>

@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-
 export default function StudentHouse() {
   const [zoomImg, setZoomImg] = useState(null);
   const navigate = useNavigate();
@@ -28,7 +27,6 @@ export default function StudentHouse() {
           </h2>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
             <div className="w-[700px] h-[700px]">
@@ -37,11 +35,8 @@ export default function StudentHouse() {
             onClick={() => setZoomImg("/student-house.png")}
             alt="" />
             </div>
-           
-
         </div>
-
-         {zoomImg && (
+      {zoomImg && (
         <div
           className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center"
           onClick={() => setZoomImg(null)}
@@ -67,10 +62,7 @@ export default function StudentHouse() {
             onClick={(e) => e.stopPropagation()}
           />
         </div>
-)}
-
-     
-
+      )}    
     </div>
   );
 }

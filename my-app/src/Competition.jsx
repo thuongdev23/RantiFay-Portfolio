@@ -5,11 +5,7 @@ export default function Competition() {
   const navigate = useNavigate();
 
   return (
-    <div className=" bg-gray-200 relative
-                px-4 py-6
-                sm:px-8 sm:py-8
-                lg:px-12 lg:py-10">
-
+    <div className=" bg-gray-200 relative px-4 py-6 sm:px-8 sm:py-8 lg:px-12 lg:py-10">
       {/* BACK ARROW */}
       <button
         onClick={() => navigate(-1)}
@@ -20,12 +16,10 @@ export default function Competition() {
         </span>
      
       </button>
-
       {/* GRID */}
-      <div className=" grid grid-cols-1 gap-4
-      sm:grid-cols-2 sm:gap-5
-      lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
-
+      <div className="grid grid-cols-1 gap-4
+                      sm:grid-cols-2 sm:gap-5
+                      lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
         {/* SARANG SALANG  */}
         <motion.div
           layoutId="sarang-salang-card"
@@ -47,7 +41,6 @@ export default function Competition() {
           </h2>
           </div>
         </motion.div>
-
         {/* COMPETITION */}
           <motion.div
           layoutId="competition-card"
@@ -60,7 +53,6 @@ export default function Competition() {
             Competition
           </h2>
         </motion.div>
-
             {/* KODAK */}
           <motion.div
           layoutId="kotak-card"
@@ -81,9 +73,6 @@ export default function Competition() {
           </h2>
           </div>
         </motion.div>
-
-
-
           {/* LA VIE EN GREEN  */}
          <motion.div
           layoutId="la-vie-en-green-card"

@@ -19,9 +19,9 @@ export default function CreativeDesin() {
         </span>
       </button>
       {/* GRID */}
-      <div className="   grid grid-cols-1 gap-4
-      sm:grid-cols-1 sm:gap-5
-      lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
+      <div className="  grid grid-cols-1 gap-4
+                        sm:grid-cols-1 sm:gap-5
+                        lg:grid-cols-4 lg:grid-rows-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
 
         {/* ILLUSTRATION CARD (EXPANDABLE) */}
         <motion.div
@@ -76,8 +76,8 @@ export default function CreativeDesin() {
           layoutId="branding-card"
           onClick={() => navigate("/branding")}
           className=" rounded-[32px] bg-white p-6 flex flex-col
-        h-[200px] sm:h-[240px] lg:h-auto
-        col-span-1 sm:col-span-2 lg:col-span-2 row-span-2  cursor-pointer"
+                      h-[200px] sm:h-[240px] lg:h-auto
+                      col-span-1 sm:col-span-2 lg:col-span-2 row-span-2  cursor-pointer"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

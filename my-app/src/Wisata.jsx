@@ -26,7 +26,6 @@ export default function Wisata() {
                       lg:grid-cols-4
                       lg:gap-6 
                       lg:h-[calc(100vh-80px)]">
-
         {/* PLAZA  */}
         <motion.div
           layoutId="plaza-card"
@@ -114,31 +113,8 @@ export default function Wisata() {
           </h3>
           </div>
         </motion.div>
-        
-        
-
-       
-
-    
-
-       
-
-        
-
-         
-
-         
-
-        
-     
-
       </div>
-      
     </div>
-
-
-   
-    
   );
 }
 

@@ -31,57 +31,53 @@ export default function Skywalk() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
           <div className="max-w-xl">
+            {/* TITLE */}
+            <h4 className="text-sm text-purple-500">Project Document</h4>
+            <h2 className="text-2xl font-semibold mt-2 text-purple-500">
+              Skywalk 
+            </h2>
 
-  {/* TITLE */}
-  <h4 className="text-sm text-purple-500">Project Document</h4>
-  <h2 className="text-2xl font-semibold mt-2 text-purple-500">
-    Skywalk 
-  </h2>
+            {/* DESCRIPTION */}
+            <p className="mt-4 italic text-purple-600">
+              Full architectural documentation including concept, drawings,
+              and visualizations.
+            </p>
 
-  {/* DESCRIPTION */}
-  <p className="mt-4 italic text-purple-600">
-    Full architectural documentation including concept, drawings,
-    and visualizations.
-  </p>
+            {/* DOWNLOAD CARD */}
+            <a
+              href="/Skywalk-pasir-glbug.pdf"
+              download
+              className="
+                mt-10
+                block
+                bg-white
+                rounded-[32px]
+                p-8
+                hover:scale-[1.02]
+                transition
+                shadow-md
+              "
+            >
+            <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-lg font-medium text-purple-500">
+                      Download PDF
+                    </p>
+                    <p className="text-sm text-gray-400 mt-1">
+                      Architectural Portfolio File
+                    </p>
+                  </div>
 
-  {/* DOWNLOAD CARD */}
-  <a
-    href="/Skywalk-pasir-glbug.pdf"
-    download
-    className="
-      mt-10
-      block
-      bg-white
-      rounded-[32px]
-      p-8
-      hover:scale-[1.02]
-      transition
-      shadow-md
-    "
-  >
-    <div className="flex items-center justify-between">
-      <div>
-        <p className="text-lg font-medium text-purple-500">
-          Download PDF
-        </p>
-        <p className="text-sm text-gray-400 mt-1">
-          Architectural Portfolio File
-        </p>
-      </div>
-
-      {/* ICON */}
-      <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-500 text-xl">
-        ⬇
-      </div>
-    </div>
-  </a>
-
-</div>
-
+                  {/* ICON */}
+                    <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-500 text-xl">
+                    ⬇
+                    </div>
+             </div>
+           </a>
+          </div>
         </div>
     </div>
   );

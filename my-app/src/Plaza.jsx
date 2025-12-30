@@ -6,7 +6,6 @@ export default function Plaza() {
 
   return (
     <div className="h-screen bg-blue-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -31,28 +30,23 @@ export default function Plaza() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
-<div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-  <div className="max-w-4xl">
+      <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
+        <div className="max-w-4xl">
 
-    {/* VIDEO WRAPPER */}
-    <div className="relative w-full aspect-video rounded-[32px] overflow-hidden shadow-lg">
-      <iframe
-        className="absolute inset-0 w-full h-full"
-        src="https://www.youtube.com/embed/MMH9U-MoGHc"
-        title="Plaza Project Video"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
-
-  
-
-  </div>
-</div>
-
+          {/* VIDEO WRAPPER */}
+          <div className="relative w-full aspect-video rounded-[32px] overflow-hidden shadow-lg">
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/MMH9U-MoGHc"
+              title="Plaza Project Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

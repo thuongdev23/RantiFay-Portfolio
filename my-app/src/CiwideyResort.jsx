@@ -33,7 +33,6 @@ export default function CiwideyResort() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
            {/* TOP LARGE IMAGE */}
@@ -52,7 +51,6 @@ export default function CiwideyResort() {
               className="w-full h-auto object-cover "
               alt="Villa view 2"
             />
-
             <img
               src="./Ciwidey/ciwidey-3.png"
               className="w-full h-auto object-cover "
@@ -64,9 +62,6 @@ export default function CiwideyResort() {
               alt="Villa view 3"
             />
           </div>
-          
-            
-
         </div>
     </div>
   );

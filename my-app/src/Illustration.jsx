@@ -7,7 +7,6 @@ export default function Illustration() {
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row bg-yellow-500">
-
       {/* BACK ARROW */}
       <button
         onClick={() => navigate(-1)}
@@ -22,14 +21,11 @@ export default function Illustration() {
           layoutId="illustration-card"
           className="rounded-[32px] bg-white p-6 h-full flex flex-col sticky top-10"
         >
-         
-
           <h2 className="font-semibold text-xl text-yellow-500">
             Illustration
           </h2>
         </motion.div>
       </div>
-
       {/* RIGHT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-visible lg: overflow-y-auto no-scrollbar">
         <div className="relative min-h-[200vh]">
@@ -37,13 +33,13 @@ export default function Illustration() {
              <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0
         sm:relative">
         <img
-          src="/illus-1.png"
+          src="./CreativeDesign/illus-1.png"
           className="
            w-full max-w-sm mx-auto
           lg:absolute lg:top-[-1%] lg:left-[5%] lg:w-[500px] lg:h-[500px]"
         />
         <img
-          src="/illus-2.png"
+          src="./CreativeDesign/illus-2.png"
           className=" w-full max-w-sm mx-auto
           lg:absolute lg:top-[10%] lg:left-[50%] lg:w-[600px] lg:h-[650px]"
         />
@@ -54,17 +50,15 @@ export default function Illustration() {
        </div>
       </div> 
       {/* EXTRA CONTENT */}
-
-
         <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0
         sm:relative">
           <img
-          src="/illus-3.png"
+          src="./CreativeDesign/illus-3.png"
           className="w-full max-w-sm mx-auto
           lg:absolute lg:top-[50%] lg:left-[5%] lg:w-[400px] lg:h-[600px]"
         />
         <img
-          src="/illus-4.png"
+          src="./CreativeDesign/illus-4.png"
           className=" w-full max-w-sm mx-auto
           lg:absolute lg:top-[50%] lg:left-[55%] lg:w-[400px] lg:h-[600px]"
         />
@@ -75,28 +69,26 @@ export default function Illustration() {
        </div>
       </div> 
        {/* EXTRA CONTENT */}
-        <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0
-        sm:relative">
-                <img
-          src="/illus-5.png"
-          className=" w-full max-w-sm mx-auto
-          lg:absolute lg:top-[97%] lg:left-[5%] lg:w-[400px] lg:h-[600px]"
-        />
-        <img
-          src="/illus-6.png"
-          className="  w-full max-w-sm mx-auto
-          lg:absolute lg:top-[97%] lg:left-[55%] lg:w-[400px] lg:h-[600px]"
-        />
-          <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0 lg:top-[140%] sm: relative">
-        <h4 className="text-sm text-gray-500">2025</h4>
-        <h1 className="text-2xl font-medium">Ne.Bac</h1>
-        <h1 className="text-2xl font-medium">CustomArt Design</h1>
-       </div>
-       
-      </div> 
+            <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0
+              sm:relative">
+                      <img
+                src="./CreativeDesign/illus-5.png"
+                className=" w-full max-w-sm mx-auto
+                lg:absolute lg:top-[97%] lg:left-[5%] lg:w-[400px] lg:h-[600px]"
+              />
+              <img
+                src="./CreativeDesign/illus-6.png"
+                className="  w-full max-w-sm mx-auto
+                lg:absolute lg:top-[97%] lg:left-[55%] lg:w-[400px] lg:h-[600px]"
+              />
+                <div className="lg:absolute lg:inset-0 lg:pointer-events-none lg:z-0 lg:top-[140%] sm: relative">
+              <h4 className="text-sm text-gray-500">2025</h4>
+              <h1 className="text-2xl font-medium">Ne.Bac</h1>
+              <h1 className="text-2xl font-medium">CustomArt Design</h1>
+            </div>
+          </div> 
         </div>
       </div>
-
      </div>
   );
 }

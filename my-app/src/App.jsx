@@ -34,10 +34,8 @@ import Skywalk from "./Skywalk";
 import Villa2 from "./Villa2";
 import Plaza from "./Plaza";
 
-
 export default function App() {
   const location = useLocation();
-
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -73,14 +71,6 @@ export default function App() {
         <Route path="/skywalk" element={<Skywalk/>} /> 
         <Route path="/villa2" element={<Villa2/>} /> 
         <Route path="/plaza" element={<Plaza/>} /> 
-
-
-
-
-
-
-
-
       </Routes>
     </AnimatePresence>
   );

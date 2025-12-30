@@ -29,7 +29,6 @@ export default function MeetingHall() {
           </h2>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
          {/* TOP LARGE IMAGE */}
@@ -68,7 +67,6 @@ export default function MeetingHall() {
               alt="Villa view 1"
             />
           </div>
-
           {/* BOTTOM TWO IMAGES */}
           <div className="grid grid-cols-2 gap-0">
             <img
@@ -76,14 +74,12 @@ export default function MeetingHall() {
               className="w-full h-auto "
               alt="Villa view 2"
             />
-
             <img
               src="./Interior/meeting-7.png"
               className="w-full h-auto"
               alt="Villa view 3"
             />
           </div>
-
         </div>
     </div>
   );

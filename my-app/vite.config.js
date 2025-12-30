@@ -5,19 +5,3 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
-
-// export default defineConfig({
-//   plugins: [react()],
-//   build: {
-//     sourcemap: false,
-//     chunkSizeWarningLimit: 1000,
-//     rollupOptions: {
-//       output: {
-//         manualChunks: {
-//           react: ["react", "react-dom"],
-//           motion: ["framer-motion"]
-//         }
-//       }
-//     }
-//   }
-// });

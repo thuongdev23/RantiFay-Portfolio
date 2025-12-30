@@ -6,7 +6,6 @@ export default function Villa2() {
 
   return (
     <div className="h-screen bg-blue-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -31,54 +30,50 @@ export default function Villa2() {
           </div>
         </motion.div>
       </div>
-
-      {/* LEFT SCROLLABLE CONTENT */}
-           {/* LEFT SCROLLABLE CONTENT */}
-  <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
-    <div className="w-full">
-      <img
-        src="./BuiltDesign/villa2-4.jpg"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-     <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-5.jpg"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-         <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-6.jpg"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-    <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-6.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-    <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-5.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-    <div className="w-full">
-     <img
-        src="./BuiltDesign/villa2-5.png"
-        className="w-full h-auto object-cover rounded-xl"
-        alt="Villa view 1"
-      />
-    </div>
-            
-
+         {/* LEFT SCROLLABLE CONTENT */}
+        <div className="flex-1 overflow-y-auto px-16 py-16 ml-4">
+            <div className="w-full">
+              <img
+                src="./BuiltDesign/villa2-4.jpg"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
+            <div className="w-full">
+            <img
+                src="./BuiltDesign/villa2-5.jpg"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
+                <div className="w-full">
+            <img
+                src="./BuiltDesign/villa2-6.jpg"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
+            <div className="w-full">
+            <img
+                src="./BuiltDesign/villa2-6.png"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
+            <div className="w-full">
+            <img
+                src="./BuiltDesign/villa2-5.png"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
+            <div className="w-full">
+            <img
+                src="./BuiltDesign/villa2-5.png"
+                className="w-full h-auto object-cover rounded-xl"
+                alt="Villa view 1"
+              />
+            </div>
         </div>
     </div>
   );

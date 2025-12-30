@@ -16,17 +16,7 @@ export default function BuiltDesignInter() {
         </span>
       </button>
       {/* GRID */}
-      <div className="grid
-  grid-cols-1
-  gap-4
-
-  sm:grid-cols-2
-  sm:gap-5
-
-  lg:grid-cols-4
-  lg:gap-6 
-  lg:h-[calc(100vh-80px)]">
-
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
         {/* CUCIIN MAMI  */}
         <motion.div
           layoutId="cuciin-mami-card"
@@ -98,31 +88,8 @@ export default function BuiltDesignInter() {
             House+Garage Workshop
         </h2>
         </motion.div>
-        
-        
-
-       
-
-    
-
-       
-
-        
-
-         
-
-         
-
-        
-     
-
       </div>
-      
     </div>
-
-
-   
-    
   );
 }
 

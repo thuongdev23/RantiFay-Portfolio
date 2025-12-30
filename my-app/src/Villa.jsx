@@ -6,7 +6,6 @@ export default function Villa() {
 
   return (
     <div className="h-screen bg-blue-200 flex relative overflow-hidden">
-
       {/* BACK */}
       <button
         onClick={() => navigate(-1)}
@@ -31,43 +30,39 @@ export default function Villa() {
           </div>
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
-    <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
-  <div
-    className="
-      grid
-      grid-cols-1
-      gap-8
-      max-w-[1400px]
-    "
-  >
-    {/* TOP LARGE IMAGE */}
-    <div className="w-full">
-      <img
-        src="./BuiltDesign/villa-1.png"
-        className="w-full h-auto object-cover "
-        alt="Villa view 1"
-      />
-    </div>
-
-    {/* BOTTOM TWO IMAGES */}
-    <div className="grid grid-cols-2 gap-0">
-      <img
-        src="./BuiltDesign/villa-2.png"
-        className="w-full h-auto "
-        alt="Villa view 2"
-      />
-
-      <img
-        src="./BuiltDesign/villa-3.png"
-        className="w-full h-auto"
-        alt="Villa view 3"
-      />
-    </div>
-  </div>
-</div>
-
+      <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
+        <div
+          className="
+            grid
+            grid-cols-1
+            gap-8
+            max-w-[1400px]
+          "
+        >
+          {/* TOP LARGE IMAGE */}
+          <div className="w-full">
+            <img
+              src="./BuiltDesign/villa-1.png"
+              className="w-full h-auto object-cover "
+              alt="Villa view 1"
+            />
+          </div>
+          {/* BOTTOM TWO IMAGES */}
+          <div className="grid grid-cols-2 gap-0">
+            <img
+              src="./BuiltDesign/villa-2.png"
+              className="w-full h-auto "
+              alt="Villa view 2"
+            />
+            <img
+              src="./BuiltDesign/villa-3.png"
+              className="w-full h-auto"
+              alt="Villa view 3"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

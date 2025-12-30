@@ -73,15 +73,14 @@ export default function Branding() {
     {/* ===== FEATURED BRANDING CARD ===== */}
   
     {/* ===== BOTTOM LARGE IMAGES ===== */}
-    <div className="grid grid-cols-3 gap-8">
-      <img src="./Branding/brand-10.png" className="asset h-[350px] w-[400px] " />
-      <img src="./Branding/brand-9.png" className="asset h-[350px] w-[400px]" />
-      <img src="./Branding/brand-8.png" className="asset h-[350px] w-[400px]" />
-    </div>
+          <div className="grid grid-cols-3 gap-8">
+            <img src="./Branding/brand-10.png" className="asset h-[350px] w-[400px] " />
+            <img src="./Branding/brand-9.png" className="asset h-[350px] w-[400px]" />
+            <img src="./Branding/brand-8.png" className="asset h-[350px] w-[400px]" />
+          </div>
 
-  </div>
-</div>
-
+        </div>
+      </div>
     </div>
   );
 }

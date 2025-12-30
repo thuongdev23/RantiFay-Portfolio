@@ -16,16 +16,7 @@ export default function AcademicProject() {
         </span>
       </button>
       {/* GRID */}
-      <div className="grid
-  grid-cols-1
-  gap-4
-
-  sm:grid-cols-2
-  sm:gap-5
-
-  lg:grid-cols-4
-  lg:gap-6 
-  lg:h-[calc(100vh-80px)]">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-6 lg:h-[calc(100vh-80px)]">
 
         {/* Virtual Museum: Tan Soek Ho  */}
         <motion.div

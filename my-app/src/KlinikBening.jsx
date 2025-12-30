@@ -30,7 +30,6 @@ export default function KlinikBening() {
           </div> 
         </motion.div>
       </div>
-
       {/* LEFT SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-16 py-16 ml-12">
             {/* TOP LARGE IMAGE */}
@@ -41,7 +40,6 @@ export default function KlinikBening() {
                 alt="Villa view 1"
               />
             </div>
-
             {/* BOTTOM TWO IMAGES */}
             <div className="grid grid-cols-2 gap-0">
               <img
@@ -49,15 +47,12 @@ export default function KlinikBening() {
                 className="w-full h-auto object-cover "
                 alt="Villa view 2"
               />
-
               <img
                 src="./Bening/bening-3.jpg"
                 className="w-full h-auto object-cover "
                 alt="Villa view 3"
               />
             </div>
-            
-
         </div>
     </div>
   );

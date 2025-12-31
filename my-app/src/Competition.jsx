@@ -45,7 +45,7 @@ export default function Competition() {
           <motion.div
           layoutId="competition-card"
           onClick={() => navigate("/competition")}
-          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 flex flex-col"
+          className="cursor-pointer rounded-[32px] bg-gray-200 p-6 row-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

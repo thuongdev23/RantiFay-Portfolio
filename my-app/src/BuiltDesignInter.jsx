@@ -45,11 +45,11 @@ export default function BuiltDesignInter() {
           <motion.div
           layoutId="built-design-inter-card"
           onClick={() => navigate("/built-design-inter")}
-          className="cursor-pointer rounded-[32px] bg-white p-6 row-span-2 flex flex-col"
+          className="cursor-pointer rounded-[32px] bg-red-500 p-6 row-span-2 flex flex-col"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className=" text-xl text-red-500 mt-auto">
+          <h2 className=" text-xl text-white-500 mt-auto">
              Built Design (Interior Architecture) 
           </h2>
         </motion.div>

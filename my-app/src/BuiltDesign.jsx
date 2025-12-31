@@ -91,7 +91,7 @@ export default function BuiltDesign() {
          <motion.div
           layoutId="built-design-card"
           onClick={() => navigate("/built-design")}
-          className="rounded-[32px]  text-xl bg-white row-span-2 p-6 text-black flex flex-col"          
+          className="rounded-[32px]  text-xl bg-blue-300 row-span-2 p-6 text-black flex flex-col"          
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.4 }}
         >

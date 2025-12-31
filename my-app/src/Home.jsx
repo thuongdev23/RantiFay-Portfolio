@@ -119,7 +119,7 @@ export default function Home() {
 
           {/* IMAGE */}
           <img
-            src="/img-1.jpeg"
+            src="./CreativeDesign/img-1.jpeg"
             className="w-full h-full object-cover"
             alt="Download CV"
           />

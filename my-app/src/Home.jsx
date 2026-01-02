@@ -104,7 +104,7 @@ export default function Home() {
             }}
           />
             
-            <h2 className="text-2xl mt-36 ">
+            <h2 className="text-2xl mt-16 ">
               CONNECT<br />WITH ME
             </h2>
           </div>

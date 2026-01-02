@@ -74,9 +74,9 @@ export default function AboutMe() {
         {/* RIGHT IMAGES */}
         <div className="col-span-2 flex flex-col gap-6">
 
-          <FramedImage src="/img-2.jpeg" />
-          <FramedImage src="/img-3.jpeg" />
-          <FramedImage src="/img-4.jpeg" />
+          <FramedImage src="./CreativeDesign/img-2.jpeg" />
+          <FramedImage src="./CreativeDesign/img-3.jpeg" />
+          <FramedImage src="./CreativeDesign/img-4.jpeg" />
 
         </div>
 

@@ -21,9 +21,6 @@ export default function Villa() {
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
             <p className="text-purple-500 font-thin mb-72 italic">A cafe located in Indramayu. The idea was to combine the magnificent landscape with a traditional buildings and a chic interior design.</p>
-            <h3 className="italic text-purple-500 font-thin">
-              Cafe + Restaurant
-            </h3>
           <h2 className=" text-xl text-purple-500 mt-auto">
             Villa
           </h2>
@@ -36,7 +33,7 @@ export default function Villa() {
           className="
             grid
             grid-cols-1
-            gap-8
+            gap-2
             max-w-[1400px]
           "
         >

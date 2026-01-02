@@ -48,12 +48,12 @@ export default function CiwideyResort() {
           <div className="grid grid-cols-3 gap-0">
             <img
               src="./Ciwidey/ciwidey-2.png"
-              className="w-full h-auto object-cover "
+              className="w-full h-[425px] object-cover "
               alt="Villa view 2"
             />
             <img
               src="./Ciwidey/ciwidey-3.png"
-              className="w-full h-auto object-cover "
+              className="w-full h-[425px] object-cover "
               alt="Villa view 3"
             />
             <img

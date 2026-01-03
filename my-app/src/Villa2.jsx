@@ -20,12 +20,12 @@ export default function Villa2() {
           className="bg-white rounded-[32px] p-6 h-full sticky top-16 flex flex-col"
         >
           <div className=" bg-white p-6 row-span-2 flex flex-col mt-auto">
-            <p className="text-purple-500 font-thin mb-72 italic">A cafe located in Indramayu. The idea was to combine the magnificent landscape with a traditional buildings and a chic interior design.</p>
-            <h3 className="italic text-purple-500 font-thin">
+            {/* <p className="text-purple-500 font-thin mb-72 italic">A cafe located in Indramayu. The idea was to combine the magnificent landscape with a traditional buildings and a chic interior design.</p> */}
+            {/* <h3 className="italic text-purple-500 font-thin">
               Cafe + Restaurant
-            </h3>
+            </h3> */}
           <h2 className=" text-xl text-purple-500 mt-auto">
-            Villa
+            Villa (2)
           </h2>
           </div>
         </motion.div>

@@ -91,7 +91,7 @@ export default function Home() {
         {/* CONNECT WITH ME */}
         <div className="rounded-[32px] bg-pink-600 row-span-3 p-6 text-white flex flex-col justify-between">
           <div className="h-[200px] w-[250px] flex flex-col mt-12">
-            {/* <img src="./ballon.png" alt="animated icon" /> */}
+            <div className="mt-auto ">
             <motion.img
             src="./ballon.png"
             alt="animated icon"
@@ -103,10 +103,12 @@ export default function Home() {
               ease: "easeInOut",
             }}
           />
-            
-            <h2 className="text-2xl mt-16 ">
+            </div>  
+            <div className="mt-20">
+            <h2 className="text-2xl ">
               CONNECT<br />WITH ME
             </h2>
+            </div>
           </div>
           <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
             <a href="https://www.linkedin.com/in/ranti-fay-5585b6219/" target="_blank">

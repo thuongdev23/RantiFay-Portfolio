@@ -51,50 +51,47 @@ export default function AboutMe() {
     </button>
   </div>
 
-  {/* BOTTOM NAV */}
-  <div  className="mx-auto w-full max-w-xl flex items-center justify-between text-gray-400 mt-16">
-    <button onClick={() => navigate(-1)} className="flex items-center gap-3 hover:text-gray-600">
-      <span className="w-12 h-12 border border-gray-300 rounded-full flex items-center justify-center mt-10">
-        ←
-      </span>
-    </button>
+        {/* BOTTOM NAV */}
+        <div  className="mx-auto w-full max-w-xl flex items-center justify-between text-gray-400 mt-16">
+            <button onClick={() => navigate(-1)} className="flex items-center gap-3 hover:text-gray-600">
+              <span className="w-12 h-12 border border-gray-300 rounded-full flex items-center justify-center mt-10">
+                ←
+              </span>
+            </button>
 
-    <div className="flex items-center gap-3 hover:text-gray-600 cursor-pointer mt-10">
-      <Link to="/creative">
-      <span className="text-sm">Creative Design</span>
-     
-      <span className="w-12 h-12 border border-gray-300 rounded-full flex items-center justify-center">
-        →
-      </span>
-      </Link>
-    
-    </div>
-  </div>
-</div>
+            <div className="flex items-center gap-3 hover:text-gray-600 cursor-pointer mt-10">
+              <Link to="/creative">
+              <span className="text-sm">Creative Design</span>
+            
+              <span className="w-12 h-12 border border-gray-300 rounded-full flex items-center justify-center">
+                →
+              </span>
+              </Link>
+            
+            </div>
+          </div>
+        </div>
         {/* RIGHT IMAGES */}
         <div className="col-span-2 flex flex-col gap-6">
-
           <FramedImage src="./CreativeDesign/img-2.jpeg" />
           <FramedImage src="./CreativeDesign/img-3.jpeg" />
           <FramedImage src="./CreativeDesign/img-4.jpeg" />
-
         </div>
-
       </div>
     </motion.div>
   );
 }
 /* FRAMED IMAGE */
-function FramedImage({ src }) {
-  return (
-    <div className="bg-gray-100 rounded-2xl p-3 h-[30%]">
-      <div className="rounded-xl overflow-hidden h-full">
-        <img
-          src={src}
-          alt="Ranti Fay"
-          className="w-[150px] h-[200px] object-cover"
-        />
-      </div>
-    </div>
+    function FramedImage({ src }) {
+      return (
+        <div className="bg-gray-100 rounded-2xl p-3 h-[30%]">
+          <div className="rounded-xl overflow-hidden h-full">
+            <img
+              src={src}
+              alt="Ranti Fay"
+              className="w-[150px] h-[200px] object-cover"
+            />
+          </div>
+        </div>
   );
 }
